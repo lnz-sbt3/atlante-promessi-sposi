@@ -36,7 +36,7 @@ Le illustrazioni fanno riferimento all'edizione:
 
 ## Accesso
 
-Il progetto è accessibile all'indirizzo:
+Il progetto è accessibile all'indirizzo: https://lnz-sbt3.github.io/atlante-promessi-sposi/
 
 ## Tecnologie utilizzate
 - **Leaflet.js** per la mappa interattiva
