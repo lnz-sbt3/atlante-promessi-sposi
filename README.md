@@ -164,15 +164,6 @@ Il progetto utilizza file GeoJSON con la seguente struttura:
 - [ ] API REST per i dati
 - [ ] Versione mobile app
 
-## Bug Report
-
-Per segnalare bug, apri una [Issue](https://github.com/your-username/atlante-manzoni/issues) includendo:
-- Descrizione del problema
-- Passi per riprodurre
-- Comportamento atteso vs attuale
-- Screenshot se applicabile
-- Informazioni browser/sistema
-
 ## Crediti
 
 Progetto sviluppato utilizzando i dati della Digital Library del Dipartimento di Filologia Classica e Italianistica dell'Università di Bologna.
