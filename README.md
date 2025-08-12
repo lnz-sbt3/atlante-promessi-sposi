@@ -179,7 +179,7 @@ Progetto sviluppato utilizzando i dati della Digital Library del Dipartimento di
 
 - **Autore**: Lorenzo Sabatino
 - **Email**: lorenzo.sabatino3@unibo.it
-- **Progetto**:[https://github.com/lnz-sbt3/atlante-manzoni](https://github.com/lnz-sbt3/atlante-manzoni)
+- **Progetto**:[[https://github.com/lnz-sbt3/atlante-promessi-sposi](https://github.com/lnz-sbt3/atlante-promessi-sposi)
 
 ---
 
