@@ -168,6 +168,10 @@ Il progetto utilizza file GeoJSON con la seguente struttura:
 
 Progetto sviluppato utilizzando i dati della Digital Library del Dipartimento di Filologia Classica e Italianistica dell'Università di Bologna.
 
+## Licenza
+
+Questo progetto è rilasciato sotto licenza MIT. Vedi il file `LICENSE` per dettagli.
+
 ## Ringraziamenti
 
 - [Leaflet](https://leafletjs.com/) per la libreria di mappe
