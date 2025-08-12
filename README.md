@@ -37,9 +37,12 @@ Le illustrazioni fanno riferimento all'edizione:
 
 **Scheda completa**: https://dlrc.ficlit.unibo.it/s/lib/item/232045
 
-## Demo
+## 🌐 Sito Live
 
-[Link alla demo live](https://your-username.github.io/atlante-manzoni)
+**Accedi al progetto:** [https://lnz-sbt3.github.io/atlante-promessi-sposi/](https://lnz-sbt3.github.io/atlante-promessi-sposi/)
+
+### Sistema di Fallback
+Se il dataset principale non dovesse caricarsi, l'applicazione caricherà automaticamente dati di esempio per mantenere tutte le funzionalità operative.
 
 ## Tecnologie Utilizzate
 
@@ -96,10 +99,6 @@ php -S localhost:8000
 ```
 http://localhost:8000
 ```
-
-## Accesso
-
-Il progetto è accessibile all'indirizzo: https://lnz-sbt3.github.io/atlante-promessi-sposi/
 
 ## Formato Dati
 
