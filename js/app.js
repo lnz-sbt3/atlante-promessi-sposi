@@ -45,6 +45,7 @@ const timelineStats = document.getElementById('timeline-stats');
 const placeIndicator = document.getElementById('place-indicator');
 const fabContainer = document.getElementById('fab-container');
 const breadcrumbContainer = document.getElementById('breadcrumb-container');
+const projectLogo = document.getElementById('project-logo');
 
 // FAB elements
 const fabToggle = document.getElementById('fab-toggle');
@@ -77,6 +78,12 @@ let currentItemCard = null;
 let activeSpiderPlace = null;
 let isProjectInfoOpen = false;
 let currentSpiderSort = 'sequence';
+let isSpiderGraphLoading = false;
+let isDragging = false;
+
+// Logo state management
+let originalLogoSrc = 'assets/AtlanteManzoni_Logo.png';
+let minimizedLogoSrc = 'assets/AtlanteManzoni_Miniatura.png'; // Update this with the new logo filename
 
 // Global variables for page range
 let minPageNumber = 0;
@@ -90,6 +97,46 @@ const colorPalette = [
 
 const placeColorMap = new Map();
 let placeIndex = 0;
+
+// ==========================================
+// VIEWPORT STATE MANAGEMENT
+// ==========================================
+
+function updateViewportState() {
+  const isBusy = timeline.classList.contains('active') || 
+                 currentSpiderGraph !== null || 
+                 currentItemCard !== null ||
+                 timelinePanel.classList.contains('visible') ||
+                 filtersPanel.classList.contains('visible');
+  
+  const logoImg = projectLogo.querySelector('img');
+  
+  if (isBusy) {
+    document.body.classList.add('viewport-busy');
+    projectLogo.classList.add('minimized');
+    fabContainer.classList.add('minimized');
+    breadcrumbContainer.classList.add('logo-minimized');
+    
+    // Change logo to minimized version
+    if (logoImg && logoImg.src.includes(originalLogoSrc.split('/').pop())) {
+      logoImg.src = minimizedLogoSrc;
+    }
+  } else {
+    document.body.classList.remove('viewport-busy');
+    projectLogo.classList.remove('minimized');
+    fabContainer.classList.remove('minimized');
+    breadcrumbContainer.classList.remove('logo-minimized');
+    
+    // Change logo back to original
+    if (logoImg && !logoImg.src.includes(originalLogoSrc.split('/').pop())) {
+      logoImg.src = originalLogoSrc;
+    }
+  }
+}
+
+function isMobile() {
+  return window.innerWidth <= 768;
+}
 
 // ==========================================
 // UTILITY FUNCTIONS
@@ -272,6 +319,8 @@ function updateBreadcrumbs() {
   } else {
     breadcrumbContainer.classList.remove('visible');
   }
+  
+  updateViewportState();
 }
 
 function addFilterChip(text, removeCallback) {
@@ -398,6 +447,7 @@ function updateControlPositions() {
   }
   
   fabContainer.style.bottom = isActive ? '300px' : '20px';
+  updateViewportState();
 }
 
 // ==========================================
@@ -436,6 +486,25 @@ function clearHighlights() {
 // FAB MENU MANAGEMENT
 // ==========================================
 
+function closeFABPanels() {
+  timelinePanel.classList.remove('visible');
+  filtersPanel.classList.remove('visible');
+  fabTimeline.classList.remove('active');
+  fabFilters.classList.remove('active');
+  updateViewportState();
+}
+
+function closeFABCompletely() {
+  if (fabOpen) {
+    fabOpen = false;
+    fabToggle.classList.remove('active');
+    fabTimeline.style.display = 'none';
+    fabFilters.style.display = 'none';
+    fabToggle.innerHTML = '&#9776;';
+    closeFABPanels();
+  }
+}
+
 function toggleFAB() {
   fabOpen = !fabOpen;
   
@@ -450,10 +519,7 @@ function toggleFAB() {
     fabFilters.style.display = 'none';
     fabToggle.innerHTML = '&#9776;';
     
-    timelinePanel.classList.remove('visible');
-    filtersPanel.classList.remove('visible');
-    fabTimeline.classList.remove('active');
-    fabFilters.classList.remove('active');
+    closeFABPanels();
     
     if (timeline.classList.contains('active')) {
       timeline.classList.remove('active');
@@ -471,6 +537,8 @@ function toggleFAB() {
       encodeFiltersToURL();
     }
   }
+  
+  updateViewportState();
 }
 
 function showTimelinePanel() {
@@ -488,6 +556,8 @@ function showTimelinePanel() {
     timelinePanel.classList.add('visible');
     fabTimeline.classList.add('active');
   }
+  
+  updateViewportState();
 }
 
 function showFiltersPanel() {
@@ -505,6 +575,8 @@ function showFiltersPanel() {
     filtersPanel.classList.add('visible');
     fabFilters.classList.add('active');
   }
+  
+  updateViewportState();
 }
 
 // ==========================================
@@ -799,6 +871,9 @@ function createDoubleRingLayout(center, items, innerRadius, outerRadius) {
 }
 
 function showSpiderGraph(placeName, placeData) {
+  // Prevent new spider graphs if one is loading and not dragging
+  if (isSpiderGraphLoading && !isDragging) return;
+  
   closeSpiderGraph();
   
   const visibleItems = placeData.items.filter(item => {
@@ -809,6 +884,7 @@ function showSpiderGraph(placeName, placeData) {
   if (visibleItems.length === 0) return;
   
   activeSpiderPlace = placeName;
+  isSpiderGraphLoading = true;
   createIntegratedSpiderGraph(placeName, placeData, visibleItems);
 }
 
@@ -948,31 +1024,44 @@ function createIntegratedSpiderGraph(placeName, placeData, visibleItems) {
     closeSpiderGraph();
   });
   
+  // Immediate click availability - no animation delays
+  itemNodes.style("opacity", 1).attr("r", 6);
+  link.style("opacity", 0.4);
+  centerNodeEl.style("opacity", 1).attr("r", 12);
+  
+  // Animate appearance for visual feedback
   itemNodes
     .style("opacity", 0)
     .attr("r", 0)
     .transition()
-    .delay((d, i) => i * 50)
-    .duration(300)
+    .delay((d, i) => i * 20) // Reduced delay
+    .duration(200) // Reduced duration
     .style("opacity", 1)
     .attr("r", 6);
   
   link
     .style("opacity", 0)
     .transition()
-    .delay(200)
-    .duration(400)
+    .delay(100) // Reduced delay
+    .duration(200) // Reduced duration
     .style("opacity", 0.4);
   
   centerNodeEl
     .style("opacity", 0)
     .attr("r", 0)
     .transition()
-    .duration(400)
+    .duration(200) // Reduced duration
     .style("opacity", 1)
     .attr("r", 12);
   
   currentSpiderGraph = { placeName, nodes, links };
+  
+  // Mark loading as complete
+  setTimeout(() => {
+    isSpiderGraphLoading = false;
+  }, 300);
+  
+  updateViewportState();
 }
 
 function closeSpiderGraph() {
@@ -985,8 +1074,10 @@ function closeSpiderGraph() {
     
     currentSpiderGraph = null;
     activeSpiderPlace = null;
+    isSpiderGraphLoading = false;
   }
   closeItemCard();
+  updateViewportState();
 }
 
 // ==========================================
@@ -1029,6 +1120,11 @@ function hideQuickTooltip() {
 
 function showItemCardDirect(item) {
   closeItemCard();
+  closeFABPanels();
+  
+  if (isMobile()) {
+    closeFABCompletely();
+  }
   
   if (timeline.classList.contains('active')) {
     timeline.classList.remove('active');
@@ -1052,13 +1148,15 @@ function showItemCardDirect(item) {
     <div class="card-close" onclick="closeItemCard()">×</div>
   `;
   
-  const mapContainer = map.getContainer();
-  const mapRect = mapContainer.getBoundingClientRect();
-  
-  card.style.position = 'fixed';
-  card.style.right = Math.min(50, (window.innerWidth - mapRect.width) / 2 + 50) + 'px';
-  card.style.top = Math.max(80, mapRect.top + 80) + 'px';
-  card.style.maxWidth = '320px';
+  if (!isMobile()) {
+    const mapContainer = map.getContainer();
+    const mapRect = mapContainer.getBoundingClientRect();
+    
+    card.style.position = 'fixed';
+    card.style.right = Math.min(50, (window.innerWidth - mapRect.width) / 2 + 50) + 'px';
+    card.style.top = Math.max(80, mapRect.top + 80) + 'px';
+    card.style.maxWidth = '320px';
+  }
   
   if (item.place) {
     card.style.borderLeft = '4px solid ' + getColorForPlace(item.place);
@@ -1068,6 +1166,7 @@ function showItemCardDirect(item) {
   currentItemCard = card;
   
   adjustCardPosition(card);
+  updateViewportState();
   
   setTimeout(() => {
     document.addEventListener('click', closeItemCardOnClickOutside);
@@ -1076,6 +1175,11 @@ function showItemCardDirect(item) {
 
 function showItemCardLinked(item, mapCenter) {
   closeItemCard();
+  closeFABPanels();
+  
+  if (isMobile()) {
+    closeFABCompletely();
+  }
   
   if (timeline.classList.contains('active')) {
     timeline.classList.remove('active');
@@ -1097,18 +1201,20 @@ function showItemCardLinked(item, mapCenter) {
     <div class="card-close" onclick="closeItemCard()">×</div>
   `;
   
-  const mapContainer = map.getContainer();
-  const mapRect = mapContainer.getBoundingClientRect();
-  
-  const cardWidth = 320;
-  const padding = 80;
-  const availableWidth = window.innerWidth - cardWidth - padding * 2;
-  const leftPosition = Math.max(padding, Math.min(availableWidth, mapRect.right - cardWidth - padding));
-  
-  card.style.position = 'fixed';
-  card.style.left = leftPosition + 'px';
-  card.style.top = Math.max(80, mapRect.top + 80) + 'px';
-  card.style.maxWidth = cardWidth + 'px';
+  if (!isMobile()) {
+    const mapContainer = map.getContainer();
+    const mapRect = mapContainer.getBoundingClientRect();
+    
+    const cardWidth = 320;
+    const padding = 80;
+    const availableWidth = window.innerWidth - cardWidth - padding * 2;
+    const leftPosition = Math.max(padding, Math.min(availableWidth, mapRect.right - cardWidth - padding));
+    
+    card.style.position = 'fixed';
+    card.style.left = leftPosition + 'px';
+    card.style.top = Math.max(80, mapRect.top + 80) + 'px';
+    card.style.maxWidth = cardWidth + 'px';
+  }
   
   card.linkedCenter = mapCenter;
   
@@ -1119,11 +1225,12 @@ function showItemCardLinked(item, mapCenter) {
   document.body.appendChild(card);
   currentItemCard = card;
   
-  if (mapCenter) {
+  if (mapCenter && !isMobile()) {
     createConnectionLine(mapCenter, card);
   }
   
   adjustCardPosition(card);
+  updateViewportState();
   
   setTimeout(() => {
     document.addEventListener('click', closeItemCardOnClickOutside);
@@ -1137,7 +1244,7 @@ function adjustCardPosition(card) {
     const viewportHeight = window.innerHeight;
     const margin = 20;
     
-    if (cardRect.bottom > viewportHeight - margin) {
+    if (!isMobile() && cardRect.bottom > viewportHeight - margin) {
       const newTop = Math.max(margin, viewportHeight - cardRect.height - margin);
       card.style.top = newTop + 'px';
       
@@ -1208,6 +1315,7 @@ function closeItemCard() {
     removeConnectionLine();
     currentItemCard.remove();
     currentItemCard = null;
+    updateViewportState();
   }
 }
 
@@ -1504,6 +1612,11 @@ function processGeoJSONData(data) {
       
       closeSpiderGraph();
       
+      // Close FAB panels on mobile
+      if (isMobile()) {
+        closeFABCompletely();
+      }
+      
       if (timeline.classList.contains('active')) {
         timeline.classList.remove('active');
         updateControlPositions();
@@ -1608,6 +1721,17 @@ function processGeoJSONData(data) {
 // EVENT LISTENERS & MAP EVENTS
 // ==========================================
 
+// Map drag detection
+map.on('dragstart', () => {
+  isDragging = true;
+});
+
+map.on('dragend', () => {
+  setTimeout(() => {
+    isDragging = false;
+  }, 100);
+});
+
 // Map events
 map.on('zoomend moveend', () => {
   createCityAreas();
@@ -1620,10 +1744,20 @@ map.on('zoomend moveend', () => {
     });
     
     if (visibleItems.length > 0) {
-      closeSpiderGraph();
-      setTimeout(() => {
-        createIntegratedSpiderGraph(activeSpiderPlace, cityInfo, visibleItems);
-      }, 100);
+      // Don't close/reopen during dragging - just update positions
+      if (!isDragging) {
+        closeSpiderGraph();
+        setTimeout(() => {
+          createIntegratedSpiderGraph(activeSpiderPlace, cityInfo, visibleItems);
+        }, 100);
+      } else {
+        // Just update positions during drag
+        const center = latLngToLayerPoint(cityInfo.coords);
+        g.selectAll(".spider-element").remove();
+        setTimeout(() => {
+          createIntegratedSpiderGraph(activeSpiderPlace, cityInfo, visibleItems);
+        }, 50);
+      }
     }
   }
   
@@ -1631,13 +1765,15 @@ map.on('zoomend moveend', () => {
     const mapContainer = map.getContainer();
     const mapRect = mapContainer.getBoundingClientRect();
     
-    const cardWidth = 320;
-    const padding = 80;
-    const availableWidth = window.innerWidth - cardWidth - padding * 2;
-    const leftPosition = Math.max(padding, Math.min(availableWidth, mapRect.right - cardWidth - padding));
-    
-    currentItemCard.style.left = leftPosition + 'px';
-    currentItemCard.style.top = Math.max(80, mapRect.top + 80) + 'px';
+    if (!isMobile()) {
+      const cardWidth = 320;
+      const padding = 80;
+      const availableWidth = window.innerWidth - cardWidth - padding * 2;
+      const leftPosition = Math.max(padding, Math.min(availableWidth, mapRect.right - cardWidth - padding));
+      
+      currentItemCard.style.left = leftPosition + 'px';
+      currentItemCard.style.top = Math.max(80, mapRect.top + 80) + 'px';
+    }
     
     adjustCardPosition(currentItemCard);
   }
@@ -1661,6 +1797,8 @@ window.addEventListener('resize', () => {
   if (currentItemCard) {
     adjustCardPosition(currentItemCard);
   }
+  
+  updateViewportState();
 });
 
 map.on('click', (e) => {
@@ -1678,10 +1816,7 @@ fabFilters.addEventListener('click', showFiltersPanel);
 document.addEventListener('click', (e) => {
   if (!fabContainer.contains(e.target)) {
     if (fabOpen) {
-      timelinePanel.classList.remove('visible');
-      filtersPanel.classList.remove('visible');
-      fabTimeline.classList.remove('active');
-      fabFilters.classList.remove('active');
+      closeFABPanels();
     }
   }
 });
