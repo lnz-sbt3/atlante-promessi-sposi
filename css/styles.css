@@ -202,10 +202,25 @@ body, html {
   gap: 8px;
   max-width: calc(80vw - 160px);
   align-items: center;
+  transition: all 0.3s ease;
 }
 
 .breadcrumb-container.visible {
   display: flex;
+}
+
+/* Breadcrumb responsive positioning */
+@media (max-width: 768px) {
+  .breadcrumb-container {
+    top: 90px;
+    max-width: calc(100vw - 40px);
+    left: 20px;
+    transform: none;
+  }
+  
+  .breadcrumb-container.logo-minimized {
+    top: 70px;
+  }
 }
 
 .filter-chip {
@@ -254,7 +269,20 @@ body, html {
   bottom: 20px;
   left: 20px;
   z-index: 1100;
-  transition: bottom 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.fab-container.minimized {
+  bottom: 10px;
+  left: 10px;
+}
+
+@media (max-width: 768px) {
+  .fab-container.minimized {
+    bottom: 20px;
+    left: 20px;
+    transform: scale(0.8);
+  }
 }
 
 .fab-main {
@@ -324,6 +352,42 @@ body, html {
 
 .fab-panel.visible {
   display: flex;
+}
+
+/* Responsive panel positioning */
+@media (max-width: 768px) {
+  .fab-panel {
+    position: absolute;
+    left: 60px;
+    bottom: 0;
+    right: auto;
+    max-width: calc(100vw - 120px);
+    min-width: 200px;
+    width: auto;
+  }
+  
+  #filters-panel {
+    max-height: 60vh;
+    overflow-y: auto;
+    max-width: calc(100vw - 120px);
+  }
+  
+  /* Ensure panels don't go off-screen on very small devices */
+  .fab-main > div:nth-child(2) .fab-panel,
+  .fab-main > div:nth-child(3) .fab-panel {
+    left: 60px;
+    right: auto;
+    transform: none;
+  }
+  
+  /* Adjust if panel would go off right edge */
+  @media (max-width: 480px) {
+    .fab-panel {
+      left: 50px;
+      max-width: calc(100vw - 90px);
+      min-width: 180px;
+    }
+  }
 }
 
 @keyframes slideIn {
@@ -522,10 +586,27 @@ body, html {
   max-height: 80vh;
   overflow-y: auto;
   box-shadow: 0 8px 24px rgba(0,0,0,0.5);
-  z-index: 500;
+  z-index: 1500;
   font-size: 14px;
   line-height: 1.4;
   backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .item-card {
+    position: fixed;
+    top: 140px !important;
+    left: 20px !important;
+    right: 20px !important;
+    max-width: none !important;
+    width: auto !important;
+    max-height: calc(100vh - 160px);
+  }
+  
+  .item-card.logo-minimized {
+    top: 100px !important;
+  }
 }
 
 .item-card img {
@@ -680,7 +761,7 @@ body, html {
   border-radius: 12px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.3);
   z-index: 1150;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
   cursor: pointer;
   overflow: hidden;
 }
@@ -693,7 +774,61 @@ body, html {
 .project-logo img {
   height: 100%;
   width: auto;
-  border-radius: 12px;
+  border-radius: 8px;
   object-fit: contain;
   display: block;
+  transition: all 0.4s ease;
+}
+
+/* Minimized logo state */
+.project-logo.minimized {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  padding: 0;
+}
+
+.project-logo.minimized img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1.6);
+}
+
+@media (max-width: 768px) {
+  .project-logo {
+    height: 80px;
+  }
+  
+  .project-logo.minimized {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+  }
+}
+
+/* Viewport state management */
+.viewport-busy .project-logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  padding: 0;
+}
+
+.viewport-busy .project-logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transform: scale(1.6);
+}.project-logo.minimized img
+
+.viewport-busy .fab-container {
+  bottom: 10px;
+  left: 10px;
+}
+
+@media (max-width: 768px) {
+  .viewport-busy .fab-container {
+    transform: scale(0.8);
+  }
 }
