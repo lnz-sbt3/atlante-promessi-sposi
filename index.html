@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <title>Atlante Illustrato dei Promessi Sposi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- External CSS Dependencies -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+  
+  <!-- Project CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div id="map"></div>
+  
+  <!-- Project Logo -->
+  <div class="project-logo" id="project-logo" title="Atlante Illustrato dei Promessi Sposi">
+    <img src="assets/AtlanteManzoni_Logo.png" alt="Atlante Manzoni Logo" />
+  </div>
+  
+  <!-- Breadcrumb Filter Area -->
+  <div id="breadcrumb-container" class="breadcrumb-container">
+    <span class="breadcrumb-label">Filtri attivi:</span>
+  </div>
+  
+  <!-- Timeline -->
+  <div id="timeline">
+    <div class="timeline-stats" id="timeline-stats"></div>
+    <div class="timeline-grid" id="timeline-grid"></div>
+  </div>
+  
+  <!-- FAB Menu -->
+  <div id="fab-container" class="fab-container">
+    <div class="fab-main">
+      <!-- Toggle principale -->
+      <button id="fab-toggle" class="fab-sphere" title="Menu">
+        &#9776;
+      </button>
+
+      <!-- Timeline controls -->
+      <div style="position: relative;">
+        <button id="fab-timeline" class="fab-sphere" title="Timeline" style="display: none;">
+          &#9636;
+        </button>
+        <div id="timeline-panel" class="fab-panel">
+          <button class="fab-panel-btn" id="btnPromessi">Promessi Sposi</button>
+          <button class="fab-panel-btn" id="btnColonna">Colonna Infame</button>
+        </div>
+      </div>
+
+      <!-- Filter controls -->
+      <div style="position: relative;">
+        <button id="fab-filters" class="fab-sphere" title="Filtri" style="display: none;">
+          &#9681;
+        </button>
+        <div id="filters-panel" class="fab-panel">
+          <button class="fab-panel-btn reset" id="btnResetFilters">Azzera filtri</button>
+          
+          <select id="dropdown-chapter" class="fab-dropdown">
+            <option value="">Tutti i Capitoli</option>
+          </select>
+          <select id="dropdown-place" class="fab-dropdown">
+            <option value="">Tutti i Luoghi</option>
+          </select>
+          <select id="dropdown-author" class="fab-dropdown">
+            <option value="">Tutti gli Autori</option>
+          </select>
+          <select id="dropdown-character" class="fab-dropdown">
+            <option value="">Tutti i Personaggi</option>
+          </select>
+          
+          <!-- Page range slider -->
+          <div class="page-slider-container">
+            <label class="page-slider-label">Range Pagine:</label>
+            <input type="range" id="page-slider-min" class="page-slider" min="0" max="1000" value="0">
+            <input type="range" id="page-slider-max" class="page-slider" min="0" max="1000" value="1000">
+            <div class="page-range-display" id="page-range-display">0 - 1000</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="place-indicator" class="place-indicator"></div>
+
+  <!-- External JS Dependencies -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  
+  <!-- Project JS -->
+  <script src="js/app.js"></script>
+</body>
+</html>
