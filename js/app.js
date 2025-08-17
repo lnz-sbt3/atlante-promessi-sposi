@@ -1349,24 +1349,27 @@ function showProjectInfo() {
   infoDiv.className = 'project-info-modal';
   infoDiv.id = 'project-info-modal';
   infoDiv.style.cssText = `
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(29, 43, 47, 0.98);
-    color: #eee;
-    border: 2px solid #66a3ff;
-    border-radius: 16px;
-    padding: 30px;
-    max-width: 500px;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.5);
-    z-index: 3000;
-    backdrop-filter: blur(15px);
-    text-align: center;
-    font-family: 'Segoe UI', sans-serif;
-    line-height: 1.6;
-    animation: fadeIn 0.3s ease;
-  `;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(29, 43, 47, 0.98);
+  color: #eee;
+  border: 2px solid #66a3ff;
+  border-radius: 16px;
+  padding: 20px;
+  max-width: min(500px, 90vw);
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+  z-index: 3000;
+  backdrop-filter: blur(15px);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  animation: fadeIn 0.3s ease;
+  box-sizing: border-box;
+`;
   
   const style = document.createElement('style');
   style.textContent = `
@@ -1377,6 +1380,20 @@ function showProjectInfo() {
     @keyframes fadeOut {
       from { opacity: 1; transform: translate(-50%, -50%) scale(1); }
       to { opacity: 0; transform: translate(-50%, -50%) scale(0.9); }
+    }
+    @media (max-width: 768px) {
+      .project-info-modal {
+        padding: 15px !important;
+        max-width: 95vw !important;
+        border-radius: 12px !important;
+      }
+      .project-info-modal h2 {
+        font-size: 20px !important;
+        margin-bottom: 15px !important;
+      }
+      .project-info-modal p {
+        font-size: 14px !important;
+      }
     }
   `;
   document.head.appendChild(style);
