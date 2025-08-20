@@ -60,7 +60,7 @@ function initPhysicsSimulation() {
     .alphaMin(0.01)               
     .force("collision", d3.forceCollide().strength(0.8).iterations(perf === 'low' ? 2 : 3))
     .force("anchor", forceAnchor().strength(0.4))
-    .force("mouse", forceMouseRepulsion().strength(perf === 'low' ? 20 : 30)) // Ridotta forza base
+    .force("mouse", forceMouseRepulsion().strength(perf === 'low' ? 20 : 30))
     .on("tick", updateMarkerPositions);
     
   console.log(`🎮 Physics initialized (${perf} performance):`, mapCenter);
@@ -151,18 +151,15 @@ function forceMouseRepulsion() {
           
           repulsionStrength *= 0.05;
         }
-
         else if (distance < clickableRadius) {
           const reductionFactor = distance < 20 ? 0.02 : 
             0.02 + 0.08 * ((distance - 20) / (clickableRadius - 20));
           repulsionStrength *= reductionFactor;
         }
-
         else if (distance < transitionRadius) {
           const transitionFactor = 0.1 + 0.5 * ((distance - clickableRadius) / (transitionRadius - clickableRadius));
           repulsionStrength *= transitionFactor;
         }
-
         else {
           repulsionStrength *= (1 - distance / mouseInfluenceRadius);
         }
@@ -226,16 +223,16 @@ function shouldUsePhysics() {
   const markerCount = physicsNodes.length;
 
   if (performanceMode === 'low' && markerCount > 10) {
-    return zoom < 8;
+    return zoom < 9;
   }
 
-  if (zoom < 9) return true;
+  if (zoom < 10) return true;
 
-  if (zoom > 12) {
+  if (zoom > 13) {
     return checkForActualOverlaps();
   }
 
-  return zoom < 11;
+  return zoom < 12;
 }
 
 function checkForActualOverlaps() {
