@@ -577,7 +577,7 @@ body, html {
 /* Item card popup */
 .item-card {
   position: absolute;
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(43, 59, 69, 0.95);
   color: #eee;
   border: 2px solid #66a3ff;
   border-radius: 12px;
