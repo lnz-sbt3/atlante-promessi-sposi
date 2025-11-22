@@ -1,4 +1,4 @@
-{
+
   "type": "FeatureCollection",
   "features": [
     {
@@ -26,7 +26,16 @@
         "chapter": "Capitolo I",
         "page_number": 9,
         "subimage_index": 1,
-        "sequence": 9.1
+        "sequence": 9.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228774/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228774/canvas/p1",
+        "iiif_canvas_label": "Il ponte sul lago di Como",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229279",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228774/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229783",
+        "iiif_manifest_label": "Il ponte sul lago di Como"
       }
     },
     {
@@ -54,7 +63,16 @@
         "chapter": "Capitolo I",
         "page_number": 11,
         "subimage_index": 1,
-        "sequence": 11.1
+        "sequence": 11.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228776/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228776/canvas/p1",
+        "iiif_canvas_label": "Veduta di Lecco",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229281",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228776/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229785",
+        "iiif_manifest_label": "Veduta di Lecco"
       }
     },
     {
@@ -85,7 +103,16 @@
         "chapter": "Capitolo I",
         "page_number": 13,
         "subimage_index": 1,
-        "sequence": 13.1
+        "sequence": 13.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228777/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228777/canvas/p1",
+        "iiif_canvas_label": "La lettura delle gride",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229282",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228777/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229786",
+        "iiif_manifest_label": "La lettura delle gride"
       }
     },
     {
@@ -114,7 +141,16 @@
         "chapter": "Capitolo III",
         "page_number": 50,
         "subimage_index": 1,
-        "sequence": 50.1
+        "sequence": 50.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228799/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228799/canvas/p1",
+        "iiif_canvas_label": "Il dottor Azzecca-garbugli legge appoggiato al tavolo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229304",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228799/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229808",
+        "iiif_manifest_label": "Il dottor Azzecca-garbugli legge appoggiato al tavolo"
       }
     },
     {
@@ -145,7 +181,16 @@
         "chapter": "Capitolo III",
         "page_number": 53,
         "subimage_index": 1,
-        "sequence": 53.1
+        "sequence": 53.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228801/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228801/canvas/p1",
+        "iiif_canvas_label": "Il dottor Azzecca-garbugli legge la grida a Renzo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229306",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228801/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229810",
+        "iiif_manifest_label": "Il dottor Azzecca-garbugli legge la grida a Renzo"
       }
     },
     {
@@ -176,7 +221,16 @@
         "chapter": "Capitolo III",
         "page_number": 57,
         "subimage_index": 1,
-        "sequence": 57.1
+        "sequence": 57.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228802/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228802/canvas/p1",
+        "iiif_canvas_label": "Il dottor Azzecca-garbugli si rifiuta di aiutare Renzo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229307",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228802/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229811",
+        "iiif_manifest_label": "Il dottor Azzecca-garbugli si rifiuta di aiutare Renzo"
       }
     },
     {
@@ -209,7 +263,16 @@
         "chapter": "Capitolo III",
         "page_number": 58,
         "subimage_index": 1,
-        "sequence": 58.1
+        "sequence": 58.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228803/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228803/canvas/p1",
+        "iiif_canvas_label": "Il dottor Azzecca-garbugli caccia Renzo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229308",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228803/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229812",
+        "iiif_manifest_label": "Il dottor Azzecca-garbugli caccia Renzo"
       }
     },
     {
@@ -236,7 +299,16 @@
         "chapter": "Capitolo IV",
         "page_number": 65,
         "subimage_index": 2,
-        "sequence": 65.2
+        "sequence": 65.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228809/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228809/canvas/p1",
+        "iiif_canvas_label": "Iniziale del capitolo IV (I). Colonna che si staglia sul paesaggio all'alba",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229314",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228809/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229818",
+        "iiif_manifest_label": "Iniziale del capitolo IV (I). Colonna che si staglia sul paesaggio all'alba"
       }
     },
     {
@@ -265,7 +337,16 @@
         "chapter": "Capitolo VI",
         "page_number": 108,
         "subimage_index": 1,
-        "sequence": 108.1
+        "sequence": 108.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228835/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228835/canvas/p1",
+        "iiif_canvas_label": "Padre Cristoforo torna al paese",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229340",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228835/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229844",
+        "iiif_manifest_label": "Padre Cristoforo torna al paese"
       }
     },
     {
@@ -299,7 +380,16 @@
         "chapter": "Capitolo VIII",
         "page_number": 160,
         "subimage_index": 1,
-        "sequence": 160.1
+        "sequence": 160.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228867/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228867/canvas/p1",
+        "iiif_canvas_label": "Padre Cristoforo e fra Fazio accolgono Agnese, Renzo e Lucia nel convento",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229372",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228867/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229876",
+        "iiif_manifest_label": "Padre Cristoforo e fra Fazio accolgono Agnese, Renzo e Lucia nel convento"
       }
     },
     {
@@ -331,7 +421,16 @@
         "chapter": "Capitolo VIII",
         "page_number": 161,
         "subimage_index": 1,
-        "sequence": 161.1
+        "sequence": 161.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228868/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228868/canvas/p1",
+        "iiif_canvas_label": "Agnese, Renzo e Lucia pregano insieme a padre Cristoforo prima di partire",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229373",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228868/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229877",
+        "iiif_manifest_label": "Agnese, Renzo e Lucia pregano insieme a padre Cristoforo prima di partire"
       }
     },
     {
@@ -365,7 +464,16 @@
         "chapter": "Capitolo IX",
         "page_number": 167,
         "subimage_index": 1,
-        "sequence": 167.1
+        "sequence": 167.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228872/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228872/canvas/p1",
+        "iiif_canvas_label": "Il padre guardiano accoglie Agnese e Lucia",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229377",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228872/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229881",
+        "iiif_manifest_label": "Il padre guardiano accoglie Agnese e Lucia"
       }
     },
     {
@@ -397,7 +505,16 @@
         "chapter": "Capitolo IX",
         "page_number": 169,
         "subimage_index": 1,
-        "sequence": 169.1
+        "sequence": 169.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228873/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228873/canvas/p1",
+        "iiif_canvas_label": "Agnese e Lucia, accompagnate dal barocciaio e dal padre guardiano, arrivano al monastero di Monza",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229378",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228873/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229882",
+        "iiif_manifest_label": "Agnese e Lucia, accompagnate dal barocciaio e dal padre guardiano, arrivano al monastero di Monza"
       }
     },
     {
@@ -430,7 +547,16 @@
         "chapter": "Capitolo IX",
         "page_number": 173,
         "subimage_index": 1,
-        "sequence": 173.1
+        "sequence": 173.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228875/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228875/canvas/p1",
+        "iiif_canvas_label": "Gertrude interroga Lucia",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229380",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228875/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229884",
+        "iiif_manifest_label": "Gertrude interroga Lucia"
       }
     },
     {
@@ -460,7 +586,16 @@
         "chapter": "Capitolo IX",
         "page_number": 176,
         "subimage_index": 1,
-        "sequence": 176.1
+        "sequence": 176.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228876/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228876/canvas/p1",
+        "iiif_canvas_label": "Gertrude e le bambole",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229381",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228876/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229885",
+        "iiif_manifest_label": "Gertrude e le bambole"
       }
     },
     {
@@ -492,7 +627,16 @@
         "chapter": "Capitolo IX",
         "page_number": 177,
         "subimage_index": 1,
-        "sequence": 177.1
+        "sequence": 177.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228877/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228877/canvas/p1",
+        "iiif_canvas_label": "Il principe padre rimprovera Gertrude",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229382",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228877/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229886",
+        "iiif_manifest_label": "Il principe padre rimprovera Gertrude"
       }
     },
     {
@@ -523,7 +667,16 @@
         "chapter": "Capitolo IX",
         "page_number": 179,
         "subimage_index": 1,
-        "sequence": 179.1
+        "sequence": 179.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228878/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228878/canvas/p1",
+        "iiif_canvas_label": "Gertrude in mezzo alle compagne",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229383",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228878/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229887",
+        "iiif_manifest_label": "Gertrude in mezzo alle compagne"
       }
     },
     {
@@ -553,7 +706,16 @@
         "chapter": "Capitolo IX",
         "page_number": 182,
         "subimage_index": 1,
-        "sequence": 182.1
+        "sequence": 182.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228879/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228879/canvas/p1",
+        "iiif_canvas_label": "Gertrude, aiutata dalle sue confidenti, scrive una lettera al principe padre",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229384",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228879/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229888",
+        "iiif_manifest_label": "Gertrude, aiutata dalle sue confidenti, scrive una lettera al principe padre"
       }
     },
     {
@@ -583,7 +745,16 @@
         "chapter": "Capitolo IX",
         "page_number": 184,
         "subimage_index": 1,
-        "sequence": 184.1
+        "sequence": 184.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228880/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228880/canvas/p1",
+        "iiif_canvas_label": "Gertrude costretta a stare insieme alle donne di servizio",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229385",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228880/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229889",
+        "iiif_manifest_label": "Gertrude costretta a stare insieme alle donne di servizio"
       }
     },
     {
@@ -614,7 +785,16 @@
         "chapter": "Capitolo IX",
         "page_number": 185,
         "subimage_index": 1,
-        "sequence": 185.1
+        "sequence": 185.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228881/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228881/canvas/p1",
+        "iiif_canvas_label": "Il principe padre, scoperta la lettera per il paggio, punisce Gertrude",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229386",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228881/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229890",
+        "iiif_manifest_label": "Il principe padre, scoperta la lettera per il paggio, punisce Gertrude"
       }
     },
     {
@@ -643,7 +823,16 @@
         "chapter": "Capitolo IX",
         "page_number": 188,
         "subimage_index": 1,
-        "sequence": 188.1
+        "sequence": 188.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228882/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228882/canvas/p1",
+        "iiif_canvas_label": "Gertrude in un angolo della stanza con il viso tra le mani",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229387",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228882/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229891",
+        "iiif_manifest_label": "Gertrude in un angolo della stanza con il viso tra le mani"
       }
     },
     {
@@ -673,7 +862,16 @@
         "chapter": "Capitolo X",
         "page_number": 190,
         "subimage_index": 1,
-        "sequence": 190.1
+        "sequence": 190.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228885/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228885/canvas/p1",
+        "iiif_canvas_label": "Gertrude chiede perdono al principe padre",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229390",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228885/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229894",
+        "iiif_manifest_label": "Gertrude chiede perdono al principe padre"
       }
     },
     {
@@ -706,7 +904,16 @@
         "chapter": "Capitolo X",
         "page_number": 192,
         "subimage_index": 1,
-        "sequence": 192.1
+        "sequence": 192.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228886/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228886/canvas/p1",
+        "iiif_canvas_label": "Il principe padre annuncia alla principessa e al principino la decisione di Gertrude",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229391",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228886/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229895",
+        "iiif_manifest_label": "Il principe padre annuncia alla principessa e al principino la decisione di Gertrude"
       }
     },
     {
@@ -737,7 +944,16 @@
         "chapter": "Capitolo X",
         "page_number": 194,
         "subimage_index": 1,
-        "sequence": 194.1
+        "sequence": 194.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228887/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228887/canvas/p1",
+        "iiif_canvas_label": "Amici e familiari festeggiano Gertrude",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229392",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228887/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229896",
+        "iiif_manifest_label": "Amici e familiari festeggiano Gertrude"
       }
     },
     {
@@ -767,7 +983,16 @@
         "chapter": "Capitolo X",
         "page_number": 196,
         "subimage_index": 1,
-        "sequence": 196.1
+        "sequence": 196.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228888/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228888/canvas/p1",
+        "iiif_canvas_label": "La vecchia governante sveglia Gertrude",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229393",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228888/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229897",
+        "iiif_manifest_label": "La vecchia governante sveglia Gertrude"
       }
     },
     {
@@ -798,7 +1023,16 @@
         "chapter": "Capitolo X",
         "page_number": 197,
         "subimage_index": 1,
-        "sequence": 197.1
+        "sequence": 197.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228889/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228889/canvas/p1",
+        "iiif_canvas_label": "Il principe padre istruisce Gertrude prima della richiesta",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229394",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228889/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229898",
+        "iiif_manifest_label": "Il principe padre istruisce Gertrude prima della richiesta"
       }
     },
     {
@@ -833,7 +1067,16 @@
         "chapter": "Capitolo X",
         "page_number": 199,
         "subimage_index": 1,
-        "sequence": 199.1
+        "sequence": 199.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228890/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228890/canvas/p1",
+        "iiif_canvas_label": "La richiesta di Gertrude",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229395",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228890/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229899",
+        "iiif_manifest_label": "La richiesta di Gertrude"
       }
     },
     {
@@ -863,7 +1106,16 @@
         "chapter": "Capitolo X",
         "page_number": 202,
         "subimage_index": 1,
-        "sequence": 202.1
+        "sequence": 202.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228891/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228891/canvas/p1",
+        "iiif_canvas_label": "Gertrude e la sua madrina",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229396",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228891/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229900",
+        "iiif_manifest_label": "Gertrude e la sua madrina"
       }
     },
     {
@@ -893,7 +1145,16 @@
         "chapter": "Capitolo X",
         "page_number": 204,
         "subimage_index": 1,
-        "sequence": 204.1
+        "sequence": 204.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228892/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228892/canvas/p1",
+        "iiif_canvas_label": "Gertrude interrogata dal vicario",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229397",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228892/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229901",
+        "iiif_manifest_label": "Gertrude interrogata dal vicario"
       }
     },
     {
@@ -925,7 +1186,16 @@
         "chapter": "Capitolo X",
         "page_number": 206,
         "subimage_index": 1,
-        "sequence": 206.1
+        "sequence": 206.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228893/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228893/canvas/p1",
+        "iiif_canvas_label": "Il principe padre abbraccia Gertrude",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229398",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228893/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229902",
+        "iiif_manifest_label": "Il principe padre abbraccia Gertrude"
       }
     },
     {
@@ -955,7 +1225,16 @@
         "chapter": "Capitolo X",
         "page_number": 208,
         "subimage_index": 1,
-        "sequence": 208.1
+        "sequence": 208.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228894/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228894/canvas/p1",
+        "iiif_canvas_label": "Gertrude rimugina il suo passato",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229399",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228894/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229903",
+        "iiif_manifest_label": "Gertrude rimugina il suo passato"
       }
     },
     {
@@ -987,7 +1266,16 @@
         "chapter": "Capitolo X",
         "page_number": 209,
         "subimage_index": 1,
-        "sequence": 209.1
+        "sequence": 209.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228895/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228895/canvas/p1",
+        "iiif_canvas_label": "Getrude maltratta le educande",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229400",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228895/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229904",
+        "iiif_manifest_label": "Getrude maltratta le educande"
       }
     },
     {
@@ -1019,7 +1307,16 @@
         "chapter": "Capitolo X",
         "page_number": 211,
         "subimage_index": 1,
-        "sequence": 211.1
+        "sequence": 211.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228896/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228896/canvas/p1",
+        "iiif_canvas_label": "La conversa rivela a Gertrude di conoscere il suo segreto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229401",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228896/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229905",
+        "iiif_manifest_label": "La conversa rivela a Gertrude di conoscere il suo segreto"
       }
     },
     {
@@ -1050,7 +1347,16 @@
         "chapter": "Capitolo X",
         "page_number": 213,
         "subimage_index": 1,
-        "sequence": 213.1
+        "sequence": 213.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228897/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228897/canvas/p1",
+        "iiif_canvas_label": "Agnese e Lucia parlano di Gertrude",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229402",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228897/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229906",
+        "iiif_manifest_label": "Agnese e Lucia parlano di Gertrude"
       }
     },
     {
@@ -1079,7 +1385,16 @@
         "chapter": "Capitolo XI",
         "page_number": 232,
         "subimage_index": 1,
-        "sequence": 232.1
+        "sequence": 232.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228909/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228909/canvas/p1",
+        "iiif_canvas_label": "Renzo raccoglie il pane caduto ai piedi della colonna",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229414",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228909/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229918",
+        "iiif_manifest_label": "Renzo raccoglie il pane caduto ai piedi della colonna"
       }
     },
     {
@@ -1109,7 +1424,16 @@
         "chapter": "Capitolo XI",
         "page_number": 233,
         "subimage_index": 1,
-        "sequence": 233.1
+        "sequence": 233.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228910/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228910/canvas/p1",
+        "iiif_canvas_label": "Famiglia di saccheggiatori",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229415",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228910/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229919",
+        "iiif_manifest_label": "Famiglia di saccheggiatori"
       }
     },
     {
@@ -1138,7 +1462,16 @@
         "chapter": "Capitolo XI",
         "page_number": 235,
         "subimage_index": 1,
-        "sequence": 235.1
+        "sequence": 235.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228911/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228911/canvas/p1",
+        "iiif_canvas_label": "Renzo porge la lettera di padre Cristoforo al frate portinaio",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229416",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228911/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229920",
+        "iiif_manifest_label": "Renzo porge la lettera di padre Cristoforo al frate portinaio"
       }
     },
     {
@@ -1169,7 +1502,16 @@
         "chapter": "Capitolo XI",
         "page_number": 236,
         "subimage_index": 1,
-        "sequence": 236.1
+        "sequence": 236.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228912/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228912/canvas/p1",
+        "iiif_canvas_label": "Renzo osserva i tumulti",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229417",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228912/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229921",
+        "iiif_manifest_label": "Renzo osserva i tumulti"
       }
     },
     {
@@ -1198,7 +1540,16 @@
         "chapter": "Capitolo XII",
         "page_number": 239,
         "subimage_index": 1,
-        "sequence": 239.1
+        "sequence": 239.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228915/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228915/canvas/p1",
+        "iiif_canvas_label": "La folla prende d'assalto un forno",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229420",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228915/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229924",
+        "iiif_manifest_label": "La folla prende d'assalto un forno"
       }
     },
     {
@@ -1227,7 +1578,16 @@
         "chapter": "Capitolo XII",
         "page_number": 242,
         "subimage_index": 1,
-        "sequence": 242.1
+        "sequence": 242.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228916/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228916/canvas/p1",
+        "iiif_canvas_label": "La folla aggredisce un garzone",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229421",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228916/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229925",
+        "iiif_manifest_label": "La folla aggredisce un garzone"
       }
     },
     {
@@ -1257,7 +1617,16 @@
         "chapter": "Capitolo XII",
         "page_number": 243,
         "subimage_index": 1,
-        "sequence": 243.1
+        "sequence": 243.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228917/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228917/canvas/p1",
+        "iiif_canvas_label": "Il capitano di giustizia si fa largo tra la folla",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229422",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228917/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229926",
+        "iiif_manifest_label": "Il capitano di giustizia si fa largo tra la folla"
       }
     },
     {
@@ -1288,7 +1657,16 @@
         "chapter": "Capitolo XII",
         "page_number": 245,
         "subimage_index": 1,
-        "sequence": 245.1
+        "sequence": 245.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228918/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228918/canvas/p1",
+        "iiif_canvas_label": "Il capitano di giustizia viene colpito da un sasso lanciato da un uomo nella folla",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229423",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228918/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229927",
+        "iiif_manifest_label": "Il capitano di giustizia viene colpito da un sasso lanciato da un uomo nella folla"
       }
     },
     {
@@ -1315,7 +1693,16 @@
         "chapter": "Capitolo XII",
         "page_number": 246,
         "subimage_index": 1,
-        "sequence": 246.1
+        "sequence": 246.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228919/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228919/canvas/p1",
+        "iiif_canvas_label": "La folla saccheggia il forno delle grucce",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229424",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228919/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229928",
+        "iiif_manifest_label": "La folla saccheggia il forno delle grucce"
       }
     },
     {
@@ -1346,7 +1733,16 @@
         "chapter": "Capitolo XII",
         "page_number": 248,
         "subimage_index": 1,
-        "sequence": 248.1
+        "sequence": 248.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228920/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228920/canvas/p1",
+        "iiif_canvas_label": "I \"galantuomini\" che individuano gli agitatori",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229425",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228920/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229929",
+        "iiif_manifest_label": "I \"galantuomini\" che individuano gli agitatori"
       }
     },
     {
@@ -1376,7 +1772,16 @@
         "chapter": "Capitolo XII",
         "page_number": 249,
         "subimage_index": 1,
-        "sequence": 249.1
+        "sequence": 249.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228921/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228921/canvas/p1",
+        "iiif_canvas_label": "Renzo arriva arriva al Duomo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229426",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228921/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229930",
+        "iiif_manifest_label": "Renzo arriva arriva al Duomo"
       }
     },
     {
@@ -1406,7 +1811,16 @@
         "chapter": "Capitolo XII",
         "page_number": 250,
         "subimage_index": 1,
-        "sequence": 250.1
+        "sequence": 250.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228922/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228922/canvas/p1",
+        "iiif_canvas_label": "Renzo osserva i tumulti nella piazza del Duomo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229427",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228922/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229931",
+        "iiif_manifest_label": "Renzo osserva i tumulti nella piazza del Duomo"
       }
     },
     {
@@ -1435,7 +1849,16 @@
         "chapter": "Capitolo XII",
         "page_number": 252,
         "subimage_index": 1,
-        "sequence": 252.1
+        "sequence": 252.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228923/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228923/canvas/p1",
+        "iiif_canvas_label": "Renzo osserva la statua di Filippo II mentre la folla prosegue",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229428",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228923/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229932",
+        "iiif_manifest_label": "Renzo osserva la statua di Filippo II mentre la folla prosegue"
       }
     },
     {
@@ -1464,7 +1887,16 @@
         "chapter": "Capitolo XIII",
         "page_number": 253,
         "subimage_index": 2,
-        "sequence": 253.2
+        "sequence": 253.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228925/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228925/canvas/p1",
+        "iiif_canvas_label": "Iniziale del capitolo XIII (L). Il vicario di provvisione, seduto nella sua casa, aspetta la fine dei tumulti",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229430",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228925/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229934",
+        "iiif_manifest_label": "Iniziale del capitolo XIII (L). Il vicario di provvisione, seduto nella sua casa, aspetta la fine dei tumulti"
       }
     },
     {
@@ -1494,7 +1926,16 @@
         "chapter": "Capitolo XIII",
         "page_number": 256,
         "subimage_index": 1,
-        "sequence": 256.1
+        "sequence": 256.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228926/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228926/canvas/p1",
+        "iiif_canvas_label": "Un vecchio incita la folla a linciare il vicario",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229431",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228926/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229935",
+        "iiif_manifest_label": "Un vecchio incita la folla a linciare il vicario"
       }
     },
     {
@@ -1522,7 +1963,16 @@
         "chapter": "Capitolo XIII",
         "page_number": 257,
         "subimage_index": 1,
-        "sequence": 257.1
+        "sequence": 257.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228927/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228927/canvas/p1",
+        "iiif_canvas_label": "La folla trasporta una scala per fare irruzione nella casa del vicario",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229432",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228927/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229936",
+        "iiif_manifest_label": "La folla trasporta una scala per fare irruzione nella casa del vicario"
       }
     },
     {
@@ -1549,7 +1999,16 @@
         "chapter": "Capitolo XIII",
         "page_number": 260,
         "subimage_index": 1,
-        "sequence": 260.1
+        "sequence": 260.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228928/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228928/canvas/p1",
+        "iiif_canvas_label": "I facinorosi e i sostenitori della soluzione legale si scontrano davanti alla casa del vicario",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229433",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228928/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229937",
+        "iiif_manifest_label": "I facinorosi e i sostenitori della soluzione legale si scontrano davanti alla casa del vicario"
       }
     },
     {
@@ -1580,7 +2039,16 @@
         "chapter": "Capitolo XIII",
         "page_number": 262,
         "subimage_index": 1,
-        "sequence": 262.1
+        "sequence": 262.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228929/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228929/canvas/p1",
+        "iiif_canvas_label": "La carrozza di Ferrer si fa largo tra la folla",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229434",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228929/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229938",
+        "iiif_manifest_label": "La carrozza di Ferrer si fa largo tra la folla"
       }
     },
     {
@@ -1610,7 +2078,16 @@
         "chapter": "Capitolo XIII",
         "page_number": 263,
         "subimage_index": 1,
-        "sequence": 263.1
+        "sequence": 263.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228930/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228930/canvas/p1",
+        "iiif_canvas_label": "Renzo aiuta Ferrer a procedere, facendo sgombrare la folla",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229435",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228930/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229939",
+        "iiif_manifest_label": "Renzo aiuta Ferrer a procedere, facendo sgombrare la folla"
       }
     },
     {
@@ -1640,7 +2117,16 @@
         "chapter": "Capitolo XIII",
         "page_number": 265,
         "subimage_index": 1,
-        "sequence": 265.1
+        "sequence": 265.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228931/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228931/canvas/p1",
+        "iiif_canvas_label": "Renzo tiene lontana la folla mentre Ferrer scende dalla carrozza",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229436",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228931/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229940",
+        "iiif_manifest_label": "Renzo tiene lontana la folla mentre Ferrer scende dalla carrozza"
       }
     },
     {
@@ -1667,7 +2153,16 @@
         "chapter": "Capitolo XIV",
         "page_number": 269,
         "subimage_index": 1,
-        "sequence": 269.1
+        "sequence": 269.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228932/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228932/canvas/p1",
+        "iiif_canvas_label": "Castello di Milano",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229437",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228932/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229941",
+        "iiif_manifest_label": "Castello di Milano"
       }
     },
     {
@@ -1696,7 +2191,16 @@
         "chapter": "Capitolo XIV",
         "page_number": 269,
         "subimage_index": 2,
-        "sequence": 269.2
+        "sequence": 269.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228933/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228933/canvas/p1",
+        "iiif_canvas_label": "Iniziale del capitolo XIV. Soldati spagnoli",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229438",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228933/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229942",
+        "iiif_manifest_label": "Iniziale del capitolo XIV. Soldati spagnoli"
       }
     },
     {
@@ -1724,7 +2228,16 @@
         "chapter": "Capitolo XIV",
         "page_number": 270,
         "subimage_index": 1,
-        "sequence": 270.1
+        "sequence": 270.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228934/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228934/canvas/p1",
+        "iiif_canvas_label": "Uomini nella folla si scambiano opinioni sulle sorti del vicario",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229439",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228934/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229943",
+        "iiif_manifest_label": "Uomini nella folla si scambiano opinioni sulle sorti del vicario"
       }
     },
     {
@@ -1756,7 +2269,16 @@
         "chapter": "Capitolo XIV",
         "page_number": 272,
         "subimage_index": 1,
-        "sequence": 272.1
+        "sequence": 272.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228935/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228935/canvas/p1",
+        "iiif_canvas_label": "Renzo condivide la sua opinione con la folla",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229440",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228935/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229944",
+        "iiif_manifest_label": "Renzo condivide la sua opinione con la folla"
       }
     },
     {
@@ -1787,7 +2309,16 @@
         "chapter": "Capitolo XIV",
         "page_number": 274,
         "subimage_index": 1,
-        "sequence": 274.1
+        "sequence": 274.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228936/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228936/canvas/p1",
+        "iiif_canvas_label": "Alcuni dei presenti accolgono con favore il discorso di Renzo e si congratulano con lui",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229441",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228936/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229945",
+        "iiif_manifest_label": "Alcuni dei presenti accolgono con favore il discorso di Renzo e si congratulano con lui"
       }
     },
     {
@@ -1817,7 +2348,16 @@
         "chapter": "Capitolo XIV",
         "page_number": 275,
         "subimage_index": 1,
-        "sequence": 275.1
+        "sequence": 275.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228937/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228937/canvas/p1",
+        "iiif_canvas_label": "Renzo vede l'insegna dell'osteria della luna piena",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229442",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228937/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229946",
+        "iiif_manifest_label": "Renzo vede l'insegna dell'osteria della luna piena"
       }
     },
     {
@@ -1850,7 +2390,16 @@
         "chapter": "Capitolo XIV",
         "page_number": 278,
         "subimage_index": 1,
-        "sequence": 278.1
+        "sequence": 278.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228938/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228938/canvas/p1",
+        "iiif_canvas_label": "L'oste chiede a Renzo le generalità",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229443",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228938/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229947",
+        "iiif_manifest_label": "L'oste chiede a Renzo le generalità"
       }
     },
     {
@@ -1882,7 +2431,16 @@
         "chapter": "Capitolo XIV",
         "page_number": 282,
         "subimage_index": 1,
-        "sequence": 282.1
+        "sequence": 282.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228940/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228940/canvas/p1",
+        "iiif_canvas_label": "Sproloqui di Renzo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229445",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228940/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229949",
+        "iiif_manifest_label": "Sproloqui di Renzo"
       }
     },
     {
@@ -1913,7 +2471,16 @@
         "chapter": "Capitolo XIV",
         "page_number": 284,
         "subimage_index": 1,
-        "sequence": 284.1
+        "sequence": 284.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228941/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228941/canvas/p1",
+        "iiif_canvas_label": "Renzo cerca di trattenere Ambrogio Fusella",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229446",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228941/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229950",
+        "iiif_manifest_label": "Renzo cerca di trattenere Ambrogio Fusella"
       }
     },
     {
@@ -1944,7 +2511,16 @@
         "chapter": "Capitolo XIV",
         "page_number": 286,
         "subimage_index": 1,
-        "sequence": 286.1
+        "sequence": 286.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228942/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228942/canvas/p1",
+        "iiif_canvas_label": "Renzo, ubriaco, si rivolge all'oste",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229447",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228942/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229951",
+        "iiif_manifest_label": "Renzo, ubriaco, si rivolge all'oste"
       }
     },
     {
@@ -1974,7 +2550,16 @@
         "chapter": "Capitolo XIV",
         "page_number": 288,
         "subimage_index": 1,
-        "sequence": 288.1
+        "sequence": 288.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228943/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228943/canvas/p1",
+        "iiif_canvas_label": "Renzo, ubriaco, ripensa all'ingiustizia subita",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229448",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228943/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229952",
+        "iiif_manifest_label": "Renzo, ubriaco, ripensa all'ingiustizia subita"
       }
     },
     {
@@ -2004,7 +2589,16 @@
         "chapter": "Capitolo XV",
         "page_number": 289,
         "subimage_index": 2,
-        "sequence": 289.2
+        "sequence": 289.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228945/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228945/canvas/p1",
+        "iiif_canvas_label": "Iniziale del capitolo XV (L). L'oste sorregge Renzo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229450",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228945/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229954",
+        "iiif_manifest_label": "Iniziale del capitolo XV (L). L'oste sorregge Renzo"
       }
     },
     {
@@ -2035,7 +2629,16 @@
         "chapter": "Capitolo XV",
         "page_number": 290,
         "subimage_index": 1,
-        "sequence": 290.1
+        "sequence": 290.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228946/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228946/canvas/p1",
+        "iiif_canvas_label": "L'oste porta Renzo alla sua stanza",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229451",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228946/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229955",
+        "iiif_manifest_label": "L'oste porta Renzo alla sua stanza"
       }
     },
     {
@@ -2066,7 +2669,16 @@
         "chapter": "Capitolo XV",
         "page_number": 292,
         "subimage_index": 1,
-        "sequence": 292.1
+        "sequence": 292.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228947/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228947/canvas/p1",
+        "iiif_canvas_label": "L'oste, al lume di una lucerna, osserva Renzo addormentato",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229452",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228947/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229956",
+        "iiif_manifest_label": "L'oste, al lume di una lucerna, osserva Renzo addormentato"
       }
     },
     {
@@ -2097,7 +2709,16 @@
         "chapter": "Capitolo XV",
         "page_number": 294,
         "subimage_index": 1,
-        "sequence": 294.1
+        "sequence": 294.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228948/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228948/canvas/p1",
+        "iiif_canvas_label": "L'oste si imbatte in una pattuglia di soldati spagnoli",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229453",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228948/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229957",
+        "iiif_manifest_label": "L'oste si imbatte in una pattuglia di soldati spagnoli"
       }
     },
     {
@@ -2127,7 +2748,16 @@
         "chapter": "Capitolo XV",
         "page_number": 296,
         "subimage_index": 1,
-        "sequence": 296.1
+        "sequence": 296.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228949/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228949/canvas/p1",
+        "iiif_canvas_label": "La deposizione dell'oste",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229454",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228949/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229958",
+        "iiif_manifest_label": "La deposizione dell'oste"
       }
     },
     {
@@ -2160,7 +2790,16 @@
         "chapter": "Capitolo XV",
         "page_number": 298,
         "subimage_index": 1,
-        "sequence": 298.1
+        "sequence": 298.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228950/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228950/canvas/p1",
+        "iiif_canvas_label": "Renzo viene svegliato dai birri",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229455",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228950/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229959",
+        "iiif_manifest_label": "Renzo viene svegliato dai birri"
       }
     },
     {
@@ -2190,7 +2829,16 @@
         "chapter": "Capitolo XV",
         "page_number": 301,
         "subimage_index": 1,
-        "sequence": 301.1
+        "sequence": 301.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228951/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228951/canvas/p1",
+        "iiif_canvas_label": "Il notaio criminale si affaccia alla finestra",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229456",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228951/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229960",
+        "iiif_manifest_label": "Il notaio criminale si affaccia alla finestra"
       }
     },
     {
@@ -2223,7 +2871,16 @@
         "chapter": "Capitolo XV",
         "page_number": 302,
         "subimage_index": 1,
-        "sequence": 302.1
+        "sequence": 302.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228952/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228952/canvas/p1",
+        "iiif_canvas_label": "Renzo viene portato via dai birri",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229457",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228952/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229961",
+        "iiif_manifest_label": "Renzo viene portato via dai birri"
       }
     },
     {
@@ -2255,7 +2912,16 @@
         "chapter": "Capitolo XV",
         "page_number": 304,
         "subimage_index": 1,
-        "sequence": 304.1
+        "sequence": 304.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228953/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228953/canvas/p1",
+        "iiif_canvas_label": "Il notaio criminale invita Renzo a non dare nell'occhio durante il tragitto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229458",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228953/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229962",
+        "iiif_manifest_label": "Il notaio criminale invita Renzo a non dare nell'occhio durante il tragitto"
       }
     },
     {
@@ -2287,7 +2953,16 @@
         "chapter": "Capitolo XV",
         "page_number": 306,
         "subimage_index": 1,
-        "sequence": 306.1
+        "sequence": 306.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228954/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228954/canvas/p1",
+        "iiif_canvas_label": "Renzo attira l'attenzione dei passanti",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229459",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228954/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229963",
+        "iiif_manifest_label": "Renzo attira l'attenzione dei passanti"
       }
     },
     {
@@ -2317,7 +2992,16 @@
         "chapter": "Capitolo XV",
         "page_number": 307,
         "subimage_index": 1,
-        "sequence": 307.1
+        "sequence": 307.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228955/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228955/canvas/p1",
+        "iiif_canvas_label": "Un passante guarda torvo il notaio criminale",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229460",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228955/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229964",
+        "iiif_manifest_label": "Un passante guarda torvo il notaio criminale"
       }
     },
     {
@@ -2346,7 +3030,16 @@
         "chapter": "Capitolo XVI",
         "page_number": 308,
         "subimage_index": 2,
-        "sequence": 308.2
+        "sequence": 308.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228957/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228957/canvas/p1",
+        "iiif_canvas_label": "Iniziale del capitolo XVI. Renzo che scappa",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229462",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228957/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229966",
+        "iiif_manifest_label": "Iniziale del capitolo XVI. Renzo che scappa"
       }
     },
     {
@@ -2377,7 +3070,16 @@
         "chapter": "Capitolo XVI",
         "page_number": 309,
         "subimage_index": 1,
-        "sequence": 309.1
+        "sequence": 309.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228958/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228958/canvas/p1",
+        "iiif_canvas_label": "Renzo decide di chiedere indicazioni a un passante",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229463",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228958/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229967",
+        "iiif_manifest_label": "Renzo decide di chiedere indicazioni a un passante"
       }
     },
     {
@@ -2408,7 +3110,16 @@
         "chapter": "Capitolo XVI",
         "page_number": 311,
         "subimage_index": 1,
-        "sequence": 311.1
+        "sequence": 311.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228959/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228959/canvas/p1",
+        "iiif_canvas_label": "Renzo arriva a Porta Orientale",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229464",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228959/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229968",
+        "iiif_manifest_label": "Renzo arriva a Porta Orientale"
       }
     },
     {
@@ -2438,7 +3149,16 @@
         "chapter": "Capitolo XVI",
         "page_number": 316,
         "subimage_index": 1,
-        "sequence": 316.1
+        "sequence": 316.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228961/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228961/canvas/p1",
+        "iiif_canvas_label": "Renzo chiede informazioni all'oste di Gorgonzola",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229466",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228961/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229970",
+        "iiif_manifest_label": "Renzo chiede informazioni all'oste di Gorgonzola"
       }
     },
     {
@@ -2468,7 +3188,16 @@
         "chapter": "Capitolo XVI",
         "page_number": 318,
         "subimage_index": 1,
-        "sequence": 318.1
+        "sequence": 318.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228962/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228962/canvas/p1",
+        "iiif_canvas_label": "Il mercante di Milano arriva all'osteria",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229467",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228962/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229971",
+        "iiif_manifest_label": "Il mercante di Milano arriva all'osteria"
       }
     },
     {
@@ -2495,7 +3224,16 @@
         "chapter": "Capitolo XVI",
         "page_number": 320,
         "subimage_index": 1,
-        "sequence": 320.1
+        "sequence": 320.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228963/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228963/canvas/p1",
+        "iiif_canvas_label": "Scontri tra la folla e i soldati spagnoli",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229468",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228963/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229972",
+        "iiif_manifest_label": "Scontri tra la folla e i soldati spagnoli"
       }
     },
     {
@@ -2522,7 +3260,16 @@
         "chapter": "Capitolo XVI",
         "page_number": 321,
         "subimage_index": 1,
-        "sequence": 321.1
+        "sequence": 321.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228964/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228964/canvas/p1",
+        "iiif_canvas_label": "Processione delle autorità religiose",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229469",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228964/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229973",
+        "iiif_manifest_label": "Processione delle autorità religiose"
       }
     },
     {
@@ -2554,7 +3301,16 @@
         "chapter": "Capitolo XVI",
         "page_number": 324,
         "subimage_index": 1,
-        "sequence": 324.1
+        "sequence": 324.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228965/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228965/canvas/p1",
+        "iiif_canvas_label": "Renzo paga il conto, mentre il mercante continua a raccontare",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229470",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228965/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229974",
+        "iiif_manifest_label": "Renzo paga il conto, mentre il mercante continua a raccontare"
       }
     },
     {
@@ -2584,7 +3340,16 @@
         "chapter": "Capitolo XVII",
         "page_number": 330,
         "subimage_index": 1,
-        "sequence": 330.1
+        "sequence": 330.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228969/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228969/canvas/p1",
+        "iiif_canvas_label": "Renzo trova l'Adda",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229474",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228969/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229978",
+        "iiif_manifest_label": "Renzo trova l'Adda"
       }
     },
     {
@@ -2614,7 +3379,16 @@
         "chapter": "Capitolo XVII",
         "page_number": 334,
         "subimage_index": 1,
-        "sequence": 334.1
+        "sequence": 334.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228971/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228971/canvas/p1",
+        "iiif_canvas_label": "Renzo attraversa l'Adda",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229476",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228971/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229980",
+        "iiif_manifest_label": "Renzo attraversa l'Adda"
       }
     },
     {
@@ -2644,7 +3418,16 @@
         "chapter": "Capitolo XVII",
         "page_number": 336,
         "subimage_index": 1,
-        "sequence": 336.1
+        "sequence": 336.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228972/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228972/canvas/p1",
+        "iiif_canvas_label": "Renzo chiede informazioni ai passanti",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229477",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228972/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229981",
+        "iiif_manifest_label": "Renzo chiede informazioni ai passanti"
       }
     },
     {
@@ -2673,7 +3456,16 @@
         "chapter": "Capitolo XVII",
         "page_number": 337,
         "subimage_index": 1,
-        "sequence": 337.1
+        "sequence": 337.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228973/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228973/canvas/p1",
+        "iiif_canvas_label": "Renzo conta le monete che gli rimangono",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229478",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228973/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229982",
+        "iiif_manifest_label": "Renzo conta le monete che gli rimangono"
       }
     },
     {
@@ -2704,7 +3496,16 @@
         "chapter": "Capitolo XVII",
         "page_number": 338,
         "subimage_index": 1,
-        "sequence": 338.1
+        "sequence": 338.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228974/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228974/canvas/p1",
+        "iiif_canvas_label": "Renzo dona le sue ultime monete",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229479",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228974/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229983",
+        "iiif_manifest_label": "Renzo dona le sue ultime monete"
       }
     },
     {
@@ -2712,8 +3513,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.6689170,
-          45.6952250
+          9.668917,
+          45.695225
         ]
       },
       "properties": {
@@ -2734,7 +3535,16 @@
         "chapter": "Capitolo XVII",
         "page_number": 342,
         "subimage_index": 1,
-        "sequence": 342.1
+        "sequence": 342.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228975/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228975/canvas/p1",
+        "iiif_canvas_label": "Bortolo incoraggia Renzo a incontrare il padrone della filanda",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229480",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228975/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229984",
+        "iiif_manifest_label": "Bortolo incoraggia Renzo a incontrare il padrone della filanda"
       }
     },
     {
@@ -2763,7 +3573,16 @@
         "chapter": "Capitolo XVIII",
         "page_number": 343,
         "subimage_index": 2,
-        "sequence": 343.2
+        "sequence": 343.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228977/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228977/canvas/p1",
+        "iiif_canvas_label": "Iniziale del capitolo XVIII (Q). Il podestà di Lecco riceve un dispaccio",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229482",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228977/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229986",
+        "iiif_manifest_label": "Iniziale del capitolo XVIII (Q). Il podestà di Lecco riceve un dispaccio"
       }
     },
     {
@@ -2792,7 +3611,16 @@
         "chapter": "Capitolo XVIII",
         "page_number": 344,
         "subimage_index": 1,
-        "sequence": 344.1
+        "sequence": 344.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228978/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228978/canvas/p1",
+        "iiif_canvas_label": "Il podestà di Lecco interroga un contadino",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229483",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228978/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229987",
+        "iiif_manifest_label": "Il podestà di Lecco interroga un contadino"
       }
     },
     {
@@ -2823,7 +3651,16 @@
         "chapter": "Capitolo XVIII",
         "page_number": 348,
         "subimage_index": 1,
-        "sequence": 348.1
+        "sequence": 348.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228979/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228979/canvas/p1",
+        "iiif_canvas_label": "La notizia del crimine di Renzo arriva a Lucia e Agnese",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229484",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228979/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229988",
+        "iiif_manifest_label": "La notizia del crimine di Renzo arriva a Lucia e Agnese"
       }
     },
     {
@@ -2853,7 +3690,16 @@
         "chapter": "Capitolo XVIII",
         "page_number": 350,
         "subimage_index": 1,
-        "sequence": 350.1
+        "sequence": 350.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228980/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228980/canvas/p1",
+        "iiif_canvas_label": "Lucia, cucendo, ricorda il suo passato",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229485",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228980/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229989",
+        "iiif_manifest_label": "Lucia, cucendo, ricorda il suo passato"
       }
     },
     {
@@ -2883,7 +3729,16 @@
         "chapter": "Capitolo XVIII",
         "page_number": 352,
         "subimage_index": 1,
-        "sequence": 352.1
+        "sequence": 352.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228981/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228981/canvas/p1",
+        "iiif_canvas_label": "Agnese chiede notizie di padre Cristoforo a fra Galdino",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229486",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228981/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229990",
+        "iiif_manifest_label": "Agnese chiede notizie di padre Cristoforo a fra Galdino"
       }
     },
     {
@@ -2912,7 +3767,16 @@
         "chapter": "Capitolo XVIII",
         "page_number": 354,
         "subimage_index": 1,
-        "sequence": 354.1
+        "sequence": 354.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228982/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228982/canvas/p1",
+        "iiif_canvas_label": "Agnese, sconsolata, torna a casa",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229487",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228982/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229991",
+        "iiif_manifest_label": "Agnese, sconsolata, torna a casa"
       }
     },
     {
@@ -2942,7 +3806,16 @@
         "chapter": "Capitolo XVIII",
         "page_number": 355,
         "subimage_index": 1,
-        "sequence": 355.1
+        "sequence": 355.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228983/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228983/canvas/p1",
+        "iiif_canvas_label": "Il conte zio fa conversazione con il conte duca di Olivares",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229488",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228983/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229992",
+        "iiif_manifest_label": "Il conte zio fa conversazione con il conte duca di Olivares"
       }
     },
     {
@@ -2972,7 +3845,16 @@
         "chapter": "Capitolo XVIII",
         "page_number": 356,
         "subimage_index": 1,
-        "sequence": 356.1
+        "sequence": 356.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228984/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228984/canvas/p1",
+        "iiif_canvas_label": "Il conte zio rimprovera il conte Attilio",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229489",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228984/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229993",
+        "iiif_manifest_label": "Il conte zio rimprovera il conte Attilio"
       }
     },
     {
@@ -3003,7 +3885,16 @@
         "chapter": "Capitolo XVIII",
         "page_number": 360,
         "subimage_index": 1,
-        "sequence": 360.1
+        "sequence": 360.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228986/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228986/canvas/p1",
+        "iiif_canvas_label": "Il conte zio congeda il conte Attilio",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229491",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228986/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229995",
+        "iiif_manifest_label": "Il conte zio congeda il conte Attilio"
       }
     },
     {
@@ -3034,7 +3925,16 @@
         "chapter": "Capitolo XIX",
         "page_number": 363,
         "subimage_index": 1,
-        "sequence": 363.1
+        "sequence": 363.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228989/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228989/canvas/p1",
+        "iiif_canvas_label": "Il banchetto del conte zio",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229494",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228989/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229998",
+        "iiif_manifest_label": "Il banchetto del conte zio"
       }
     },
     {
@@ -3064,7 +3964,16 @@
         "chapter": "Capitolo XIX",
         "page_number": 366,
         "subimage_index": 1,
-        "sequence": 366.1
+        "sequence": 366.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228990/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228990/canvas/p1",
+        "iiif_canvas_label": "Il conte zio parla con il padre provinciale",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229495",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228990/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229999",
+        "iiif_manifest_label": "Il conte zio parla con il padre provinciale"
       }
     },
     {
@@ -3095,7 +4004,16 @@
         "chapter": "Capitolo XIX",
         "page_number": 370,
         "subimage_index": 1,
-        "sequence": 370.1
+        "sequence": 370.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228992/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228992/canvas/p1",
+        "iiif_canvas_label": "Il conte zio accompagna il padre provinciale alla porta",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229497",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228992/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230001",
+        "iiif_manifest_label": "Il conte zio accompagna il padre provinciale alla porta"
       }
     },
     {
@@ -3127,7 +4045,16 @@
         "chapter": "Capitolo XIX",
         "page_number": 371,
         "subimage_index": 1,
-        "sequence": 371.1
+        "sequence": 371.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228993/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228993/canvas/p1",
+        "iiif_canvas_label": "Il padre guardiano comunica a padre Cristoforo l'ordine di recarsi a Rimini",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229498",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228993/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230002",
+        "iiif_manifest_label": "Il padre guardiano comunica a padre Cristoforo l'ordine di recarsi a Rimini"
       }
     },
     {
@@ -3157,7 +4084,16 @@
         "chapter": "Capitolo XIX",
         "page_number": 373,
         "subimage_index": 1,
-        "sequence": 373.1
+        "sequence": 373.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228994/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228994/canvas/p1",
+        "iiif_canvas_label": "L'Innominato lascia la città a cavallo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229499",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228994/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230003",
+        "iiif_manifest_label": "L'Innominato lascia la città a cavallo"
       }
     },
     {
@@ -3187,7 +4123,16 @@
         "chapter": "Capitolo XX",
         "page_number": 384,
         "subimage_index": 1,
-        "sequence": 384.1
+        "sequence": 384.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229000/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229000/canvas/p1",
+        "iiif_canvas_label": "Lucia ascolta la richiesta di Gertrude",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229505",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229000/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230009",
+        "iiif_manifest_label": "Lucia ascolta la richiesta di Gertrude"
       }
     },
     {
@@ -3220,7 +4165,16 @@
         "chapter": "Capitolo XX",
         "page_number": 386,
         "subimage_index": 1,
-        "sequence": 386.1
+        "sequence": 386.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229001/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229001/canvas/p1",
+        "iiif_canvas_label": "I bravi rapiscono Lucia",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229506",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229001/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230010",
+        "iiif_manifest_label": "I bravi rapiscono Lucia"
       }
     },
     {
@@ -3229,7 +4183,7 @@
         "type": "Point",
         "coordinates": [
           9.1542954,
-          45.1855660
+          45.185566
         ]
       },
       "properties": {
@@ -3247,7 +4201,16 @@
         "chapter": "Capitolo XXII",
         "page_number": 415,
         "subimage_index": 1,
-        "sequence": 415.1
+        "sequence": 415.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229018/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229018/canvas/p1",
+        "iiif_canvas_label": "Collegio Borromeo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229523",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229018/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230027",
+        "iiif_manifest_label": "Collegio Borromeo"
       }
     },
     {
@@ -3274,7 +4237,16 @@
         "chapter": "Capitolo XXII",
         "page_number": 418,
         "subimage_index": 1,
-        "sequence": 418.1
+        "sequence": 418.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229020/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229020/canvas/p1",
+        "iiif_canvas_label": "Biblioteca Ambrosiana",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229525",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229020/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230029",
+        "iiif_manifest_label": "Biblioteca Ambrosiana"
       }
     },
     {
@@ -3303,7 +4275,16 @@
         "chapter": "Capitolo XXV",
         "page_number": 476,
         "subimage_index": 2,
-        "sequence": 476.2
+        "sequence": 476.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229053/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229053/canvas/p1",
+        "iiif_canvas_label": "Due contadini a dialogo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229558",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229053/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230062",
+        "iiif_manifest_label": "Due contadini a dialogo"
       }
     },
     {
@@ -3333,7 +4314,16 @@
         "chapter": "Capitolo XXVI",
         "page_number": 506,
         "subimage_index": 1,
-        "sequence": 506.1
+        "sequence": 506.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229068/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229068/canvas/p1",
+        "iiif_canvas_label": "Il governatore di Milano Gonzalo Fernandez di Córdoba parla con il residente di Milano in Venezia",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229573",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229068/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230077",
+        "iiif_manifest_label": "Il governatore di Milano Gonzalo Fernandez di Córdoba parla con il residente di Milano in Venezia"
       }
     },
     {
@@ -3362,7 +4352,16 @@
         "chapter": "Capitolo XXVII",
         "page_number": 509,
         "subimage_index": 2,
-        "sequence": 509.2
+        "sequence": 509.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229071/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229071/canvas/p1",
+        "iiif_canvas_label": "Medaglia di Carlo I° Gonzaga, Duca di Mantova",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229576",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229071/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230080",
+        "iiif_manifest_label": "Medaglia di Carlo I° Gonzaga, Duca di Mantova"
       }
     },
     {
@@ -3392,7 +4391,16 @@
         "chapter": "Capitolo XXVII",
         "page_number": 514,
         "subimage_index": 1,
-        "sequence": 514.1
+        "sequence": 514.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229075/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229075/canvas/p1",
+        "iiif_canvas_label": "Agnese si fa leggere la lettera di Renzo da Alessio di Maggianico, suo cugino",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229580",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229075/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230084",
+        "iiif_manifest_label": "Agnese si fa leggere la lettera di Renzo da Alessio di Maggianico, suo cugino"
       }
     },
     {
@@ -3423,7 +4431,16 @@
         "chapter": "Capitolo XXVII",
         "page_number": 518,
         "subimage_index": 1,
-        "sequence": 518.1
+        "sequence": 518.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229077/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229077/canvas/p1",
+        "iiif_canvas_label": "Lucia parla con Donna Prassede di Renzo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229582",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229077/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230086",
+        "iiif_manifest_label": "Lucia parla con Donna Prassede di Renzo"
       }
     },
     {
@@ -3453,7 +4470,16 @@
         "chapter": "Capitolo XXVII",
         "page_number": 520,
         "subimage_index": 1,
-        "sequence": 520.1
+        "sequence": 520.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229078/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229078/canvas/p1",
+        "iiif_canvas_label": "Ritratto di Don Ferrante",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229583",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229078/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230087",
+        "iiif_manifest_label": "Ritratto di Don Ferrante"
       }
     },
     {
@@ -3482,7 +4508,16 @@
         "chapter": "Capitolo XXVII",
         "page_number": 522,
         "subimage_index": 1,
-        "sequence": 522.1
+        "sequence": 522.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229079/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229079/canvas/p1",
+        "iiif_canvas_label": "Ritratto di Girolamo Cardano",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229584",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229079/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230088",
+        "iiif_manifest_label": "Ritratto di Girolamo Cardano"
       }
     },
     {
@@ -3513,7 +4548,16 @@
         "chapter": "Capitolo XXVII",
         "page_number": 524,
         "subimage_index": 1,
-        "sequence": 524.1
+        "sequence": 524.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229080/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229080/canvas/p1",
+        "iiif_canvas_label": "Ritratti di Niccolò Machiavelli e Giovanni Botero",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229585",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229080/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230089",
+        "iiif_manifest_label": "Ritratti di Niccolò Machiavelli e Giovanni Botero"
       }
     },
     {
@@ -3540,7 +4584,16 @@
         "chapter": "Capitolo XXVIII",
         "page_number": 530,
         "subimage_index": 1,
-        "sequence": 530.1
+        "sequence": 530.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229084/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229084/canvas/p1",
+        "iiif_canvas_label": "Due impiccati davanti al forno delle grucce",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229589",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229084/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230093",
+        "iiif_manifest_label": "Due impiccati davanti al forno delle grucce"
       }
     },
     {
@@ -3567,7 +4620,16 @@
         "chapter": "Capitolo XXVIII",
         "page_number": 532,
         "subimage_index": 1,
-        "sequence": 532.1
+        "sequence": 532.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229085/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229085/canvas/p1",
+        "iiif_canvas_label": "Bravo caduto in disgrazia",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229590",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229085/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230094",
+        "iiif_manifest_label": "Bravo caduto in disgrazia"
       }
     },
     {
@@ -3594,7 +4656,16 @@
         "chapter": "Capitolo XXVIII",
         "page_number": 533,
         "subimage_index": 1,
-        "sequence": 533.1
+        "sequence": 533.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229086/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229086/canvas/p1",
+        "iiif_canvas_label": "Contadini in miseria",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229591",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229086/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230095",
+        "iiif_manifest_label": "Contadini in miseria"
       }
     },
     {
@@ -3621,7 +4692,16 @@
         "chapter": "Capitolo XXVIII",
         "page_number": 535,
         "subimage_index": 1,
-        "sequence": 535.1
+        "sequence": 535.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229087/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229087/canvas/p1",
+        "iiif_canvas_label": "Preti che girano in coppie a offrire aiuto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229592",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229087/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230096",
+        "iiif_manifest_label": "Preti che girano in coppie a offrire aiuto"
       }
     },
     {
@@ -3652,7 +4732,16 @@
         "chapter": "Capitolo XXVIII",
         "page_number": 538,
         "subimage_index": 1,
-        "sequence": 538.1
+        "sequence": 538.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229088/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229088/canvas/p1",
+        "iiif_canvas_label": "Scena osservata dal Ripamonti di una donna morta per la strada",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229593",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229088/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230097",
+        "iiif_manifest_label": "Scena osservata dal Ripamonti di una donna morta per la strada"
       }
     },
     {
@@ -3679,7 +4768,16 @@
         "chapter": "Capitolo XXVIII",
         "page_number": 540,
         "subimage_index": 1,
-        "sequence": 540.1
+        "sequence": 540.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229089/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229089/canvas/p1",
+        "iiif_canvas_label": "Il lazzaretto di Milano",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229594",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229089/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230098",
+        "iiif_manifest_label": "Il lazzaretto di Milano"
       }
     },
     {
@@ -3707,7 +4805,16 @@
         "chapter": "Capitolo XXVIII",
         "page_number": 542,
         "subimage_index": 1,
-        "sequence": 542.1
+        "sequence": 542.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229090/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229090/canvas/p1",
+        "iiif_canvas_label": "Ordine pubblico mantenuto con la forza cacciando gli accattoni al lazzaretto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229595",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229090/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230099",
+        "iiif_manifest_label": "Ordine pubblico mantenuto con la forza cacciando gli accattoni al lazzaretto"
       }
     },
     {
@@ -3734,7 +4841,16 @@
         "chapter": "Capitolo XXVIII",
         "page_number": 544,
         "subimage_index": 1,
-        "sequence": 544.1
+        "sequence": 544.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229091/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229091/canvas/p1",
+        "iiif_canvas_label": "I poveri non ammalati scappano dal lazzaretto con gioia furibonda",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229596",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229091/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230100",
+        "iiif_manifest_label": "I poveri non ammalati scappano dal lazzaretto con gioia furibonda"
       }
     },
     {
@@ -3763,7 +4879,16 @@
         "chapter": "Capitolo XXVIII",
         "page_number": 548,
         "subimage_index": 1,
-        "sequence": 548.1
+        "sequence": 548.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229093/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229093/canvas/p1",
+        "iiif_canvas_label": "La carrozza del governatore Gonzalo Fernandez di Córdoba è attaccata dalla folla",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229598",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229093/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230102",
+        "iiif_manifest_label": "La carrozza del governatore Gonzalo Fernandez di Córdoba è attaccata dalla folla"
       }
     },
     {
@@ -3792,7 +4917,16 @@
         "chapter": "Capitolo XXVIII",
         "page_number": 550,
         "subimage_index": 1,
-        "sequence": 550.1
+        "sequence": 550.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229094/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229094/canvas/p1",
+        "iiif_canvas_label": "Il villaggio di Bellano prima di essere travolto dalle milizie di Wallenstein",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229599",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229094/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230103",
+        "iiif_manifest_label": "Il villaggio di Bellano prima di essere travolto dalle milizie di Wallenstein"
       }
     },
     {
@@ -3819,7 +4953,16 @@
         "chapter": "Capitolo XXXI",
         "page_number": 590,
         "subimage_index": 1,
-        "sequence": 590.1
+        "sequence": 590.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229118/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229118/canvas/p1",
+        "iiif_canvas_label": "Fante con un gran fagotto di vesti: primo diffondersi della malattia a Milano",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229623",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229118/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230127",
+        "iiif_manifest_label": "Fante con un gran fagotto di vesti: primo diffondersi della malattia a Milano"
       }
     },
     {
@@ -3847,7 +4990,16 @@
         "chapter": "Capitolo XXXI",
         "page_number": 598,
         "subimage_index": 1,
-        "sequence": 598.1
+        "sequence": 598.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229122/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229122/canvas/p1",
+        "iiif_canvas_label": "Uomini indicano presunti untori al Duomo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229627",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229122/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230131",
+        "iiif_manifest_label": "Uomini indicano presunti untori al Duomo"
       }
     },
     {
@@ -3874,7 +5026,16 @@
         "chapter": "Capitolo XXXI",
         "page_number": 600,
         "subimage_index": 1,
-        "sequence": 600.1
+        "sequence": 600.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229123/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229123/canvas/p1",
+        "iiif_canvas_label": "Scena di ronda auto-organizzata dalla cittadinanza impaurita",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229628",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229123/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230132",
+        "iiif_manifest_label": "Scena di ronda auto-organizzata dalla cittadinanza impaurita"
       }
     },
     {
@@ -3902,7 +5063,16 @@
         "chapter": "Capitolo XXXI",
         "page_number": 602,
         "subimage_index": 1,
-        "sequence": 602.1
+        "sequence": 602.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229124/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229124/canvas/p1",
+        "iiif_canvas_label": "I cadaveri nudi di un'intera famiglia vengono condotti al cimitero su un carro, in modo che la folla potesse vedere il marchio della pestilenza",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229629",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229124/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230133",
+        "iiif_manifest_label": "I cadaveri nudi di un'intera famiglia vengono condotti al cimitero su un carro, in modo che la folla potesse vedere il marchio della pestilenza"
       }
     },
     {
@@ -3929,7 +5099,16 @@
         "chapter": "Capitolo XXXII",
         "page_number": 606,
         "subimage_index": 1,
-        "sequence": 606.1
+        "sequence": 606.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229128/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229128/canvas/p1",
+        "iiif_canvas_label": "Zuffa nella chiesa di Sant'Antonio",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229633",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229128/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230137",
+        "iiif_manifest_label": "Zuffa nella chiesa di Sant'Antonio"
       }
     },
     {
@@ -3956,7 +5135,16 @@
         "chapter": "Capitolo XXXII",
         "page_number": 607,
         "subimage_index": 1,
-        "sequence": 607.1
+        "sequence": 607.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229129/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229129/canvas/p1",
+        "iiif_canvas_label": "Tre giovani compagni francesi vengono aggrediti dalla folla",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229634",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229129/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230138",
+        "iiif_manifest_label": "Tre giovani compagni francesi vengono aggrediti dalla folla"
       }
     },
     {
@@ -3985,7 +5173,16 @@
         "chapter": "Capitolo XXXII",
         "page_number": 609,
         "subimage_index": 1,
-        "sequence": 609.1
+        "sequence": 609.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229130/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229130/canvas/p1",
+        "iiif_canvas_label": "Dietro la spoglia di San Carlo veniva l'arcivescovo Federigo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229635",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229130/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230139",
+        "iiif_manifest_label": "Dietro la spoglia di San Carlo veniva l'arcivescovo Federigo"
       }
     },
     {
@@ -4012,7 +5209,16 @@
         "chapter": "Capitolo XXXII",
         "page_number": 610,
         "subimage_index": 1,
-        "sequence": 610.1
+        "sequence": 610.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229131/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229131/canvas/p1",
+        "iiif_canvas_label": "Anche i nobili seguono la processione per San Carlo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229636",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229131/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230140",
+        "iiif_manifest_label": "Anche i nobili seguono la processione per San Carlo"
       }
     },
     {
@@ -4041,7 +5247,16 @@
         "chapter": "Capitolo XXXII",
         "page_number": 613,
         "subimage_index": 1,
-        "sequence": 613.1
+        "sequence": 613.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229132/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229132/canvas/p1",
+        "iiif_canvas_label": "I frati cappuccini svolgono il ruolo di mantenimento dell'ordine pubblico e di organizzazione dell'assistenza sanitaria",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229637",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229132/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230141",
+        "iiif_manifest_label": "I frati cappuccini svolgono il ruolo di mantenimento dell'ordine pubblico e di organizzazione dell'assistenza sanitaria"
       }
     },
     {
@@ -4070,7 +5285,16 @@
         "chapter": "Capitolo XXXII",
         "page_number": 615,
         "subimage_index": 1,
-        "sequence": 615.1
+        "sequence": 615.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229133/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229133/canvas/p1",
+        "iiif_canvas_label": "Il cardinale Federigo visita il lazzaretto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229638",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229133/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230142",
+        "iiif_manifest_label": "Il cardinale Federigo visita il lazzaretto"
       }
     },
     {
@@ -4099,7 +5323,16 @@
         "chapter": "Capitolo XXXII",
         "page_number": 616,
         "subimage_index": 1,
-        "sequence": 616.1
+        "sequence": 616.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229134/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229134/canvas/p1",
+        "iiif_canvas_label": "Monatti nel lazzaretto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229639",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229134/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230143",
+        "iiif_manifest_label": "Monatti nel lazzaretto"
       }
     },
     {
@@ -4126,7 +5359,16 @@
         "chapter": "Capitolo XXXII",
         "page_number": 622,
         "subimage_index": 1,
-        "sequence": 622.1
+        "sequence": 622.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229138/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229138/canvas/p1",
+        "iiif_canvas_label": "Fac simile di un'operetta sulla peste scritta da Federigo Borromeo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229643",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229138/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230147",
+        "iiif_manifest_label": "Fac simile di un'operetta sulla peste scritta da Federigo Borromeo"
       }
     },
     {
@@ -4156,7 +5398,16 @@
         "chapter": "Capitolo XXXIII",
         "page_number": 625,
         "subimage_index": 2,
-        "sequence": 625.2
+        "sequence": 625.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229142/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229142/canvas/p1",
+        "iiif_canvas_label": "Don Rodrigo torna a casa sua a Milano accompagnato dal Griso",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229647",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229142/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230151",
+        "iiif_manifest_label": "Don Rodrigo torna a casa sua a Milano accompagnato dal Griso"
       }
     },
     {
@@ -4186,7 +5437,16 @@
         "chapter": "Capitolo XXXIII",
         "page_number": 626,
         "subimage_index": 1,
-        "sequence": 626.1
+        "sequence": 626.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229143/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229143/canvas/p1",
+        "iiif_canvas_label": "Don Rodrigo affaticato chiede al Griso di togliergli il lume da davanti gli occhi",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229648",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229143/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230152",
+        "iiif_manifest_label": "Don Rodrigo affaticato chiede al Griso di togliergli il lume da davanti gli occhi"
       }
     },
     {
@@ -4216,7 +5476,16 @@
         "chapter": "Capitolo XXXIII",
         "page_number": 628,
         "subimage_index": 1,
-        "sequence": 628.1
+        "sequence": 628.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229144/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229144/canvas/p1",
+        "iiif_canvas_label": "Delirio notturno di don Rodrigo che sogna fra Cristoforo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229649",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229144/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230153",
+        "iiif_manifest_label": "Delirio notturno di don Rodrigo che sogna fra Cristoforo"
       }
     },
     {
@@ -4245,7 +5514,16 @@
         "chapter": "Capitolo XXXIII",
         "page_number": 630,
         "subimage_index": 1,
-        "sequence": 630.1
+        "sequence": 630.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229145/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229145/canvas/p1",
+        "iiif_canvas_label": "Don Rodrigo tormentato si leva a sedere sul letto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229650",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229145/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230154",
+        "iiif_manifest_label": "Don Rodrigo tormentato si leva a sedere sul letto"
       }
     },
     {
@@ -4276,7 +5554,16 @@
         "chapter": "Capitolo XXXIII",
         "page_number": 631,
         "subimage_index": 1,
-        "sequence": 631.1
+        "sequence": 631.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229146/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229146/canvas/p1",
+        "iiif_canvas_label": "Il Griso tiene bloccato don Rodrigo mentre controlla che i monatti non rubino il bottino",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229651",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229146/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230155",
+        "iiif_manifest_label": "Il Griso tiene bloccato don Rodrigo mentre controlla che i monatti non rubino il bottino"
       }
     },
     {
@@ -4305,7 +5592,16 @@
         "chapter": "Capitolo XXXIV",
         "page_number": 649,
         "subimage_index": 2,
-        "sequence": 649.2
+        "sequence": 649.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229156/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229156/canvas/p1",
+        "iiif_canvas_label": "Renzo in attesa di cogliere il momento giusto per entrare in città",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229661",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229156/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230165",
+        "iiif_manifest_label": "Renzo in attesa di cogliere il momento giusto per entrare in città"
       }
     },
     {
@@ -4334,7 +5630,16 @@
         "chapter": "Capitolo XXXIV",
         "page_number": 652,
         "subimage_index": 1,
-        "sequence": 652.1
+        "sequence": 652.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229157/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229157/canvas/p1",
+        "iiif_canvas_label": "Renzo incontra un cittadino milanese sospettoso che lo caccia in malo modo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229662",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229157/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230166",
+        "iiif_manifest_label": "Renzo incontra un cittadino milanese sospettoso che lo caccia in malo modo"
       }
     },
     {
@@ -4363,7 +5668,16 @@
         "chapter": "Capitolo XXXIV",
         "page_number": 654,
         "subimage_index": 1,
-        "sequence": 654.1
+        "sequence": 654.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229158/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229158/canvas/p1",
+        "iiif_canvas_label": "Renzo aiuta una madre bisognosa",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229663",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229158/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230167",
+        "iiif_manifest_label": "Renzo aiuta una madre bisognosa"
       }
     },
     {
@@ -4392,7 +5706,16 @@
         "chapter": "Capitolo XXXIV",
         "page_number": 656,
         "subimage_index": 1,
-        "sequence": 656.1
+        "sequence": 656.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229159/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229159/canvas/p1",
+        "iiif_canvas_label": "Renzo vede passare un carro di morti davanti alla chiesa di San Marco",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229664",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229159/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230168",
+        "iiif_manifest_label": "Renzo vede passare un carro di morti davanti alla chiesa di San Marco"
       }
     },
     {
@@ -4421,7 +5744,16 @@
         "chapter": "Capitolo XXXIV",
         "page_number": 657,
         "subimage_index": 1,
-        "sequence": 657.1
+        "sequence": 657.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229160/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229160/canvas/p1",
+        "iiif_canvas_label": "Renzo incontra un prete che gli indica la strada",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229665",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229160/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230169",
+        "iiif_manifest_label": "Renzo incontra un prete che gli indica la strada"
       }
     },
     {
@@ -4448,7 +5780,16 @@
         "chapter": "Capitolo XXXIV",
         "page_number": 660,
         "subimage_index": 1,
-        "sequence": 660.1
+        "sequence": 660.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229161/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229161/canvas/p1",
+        "iiif_canvas_label": "Gli amici si salutavano da lontano",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229666",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229161/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230170",
+        "iiif_manifest_label": "Gli amici si salutavano da lontano"
       }
     },
     {
@@ -4480,7 +5821,16 @@
         "chapter": "Capitolo XXXIV",
         "page_number": 662,
         "subimage_index": 1,
-        "sequence": 662.1
+        "sequence": 662.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229162/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229162/canvas/p1",
+        "iiif_canvas_label": "Renzo vede la madre di Cecilia posare il suo corpo sul carro funebre",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229667",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229162/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230171",
+        "iiif_manifest_label": "Renzo vede la madre di Cecilia posare il suo corpo sul carro funebre"
       }
     },
     {
@@ -4507,7 +5857,16 @@
         "chapter": "Capitolo XXXIV",
         "page_number": 664,
         "subimage_index": 1,
-        "sequence": 664.1
+        "sequence": 664.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229163/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229163/canvas/p1",
+        "iiif_canvas_label": "Una moltitudine di ammalati viene condotta al lazzeretto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229668",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229163/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230172",
+        "iiif_manifest_label": "Una moltitudine di ammalati viene condotta al lazzeretto"
       }
     },
     {
@@ -4537,7 +5896,16 @@
         "chapter": "Capitolo XXXIV",
         "page_number": 666,
         "subimage_index": 1,
-        "sequence": 666.1
+        "sequence": 666.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229164/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229164/canvas/p1",
+        "iiif_canvas_label": "Renzo viene additato come untore da una donna",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229669",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229164/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230173",
+        "iiif_manifest_label": "Renzo viene additato come untore da una donna"
       }
     },
     {
@@ -4566,7 +5934,16 @@
         "chapter": "Capitolo XXXIV",
         "page_number": 667,
         "subimage_index": 1,
-        "sequence": 667.1
+        "sequence": 667.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229165/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229165/canvas/p1",
+        "iiif_canvas_label": "Renzo viene inseguito dalla folla che lo crede un untore",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229670",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229165/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230174",
+        "iiif_manifest_label": "Renzo viene inseguito dalla folla che lo crede un untore"
       }
     },
     {
@@ -4595,7 +5972,16 @@
         "chapter": "Capitolo XXXIV",
         "page_number": 669,
         "subimage_index": 1,
-        "sequence": 669.1
+        "sequence": 669.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229166/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229166/canvas/p1",
+        "iiif_canvas_label": "I monatti festeggiano Renzo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229671",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229166/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230175",
+        "iiif_manifest_label": "I monatti festeggiano Renzo"
       }
     },
     {
@@ -4624,7 +6010,16 @@
         "chapter": "Capitolo XXXIV",
         "page_number": 672,
         "subimage_index": 1,
-        "sequence": 672.1
+        "sequence": 672.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229167/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229167/canvas/p1",
+        "iiif_canvas_label": "A Renzo si spiega davanti la scena esteriore del lazzeretto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229672",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229167/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230176",
+        "iiif_manifest_label": "A Renzo si spiega davanti la scena esteriore del lazzeretto"
       }
     },
     {
@@ -4651,7 +6046,16 @@
         "chapter": "Capitolo XXXV",
         "page_number": 673,
         "subimage_index": 2,
-        "sequence": 673.2
+        "sequence": 673.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229169/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229169/canvas/p1",
+        "iiif_canvas_label": "Portici interni del lazzeretto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229674",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229169/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230178",
+        "iiif_manifest_label": "Portici interni del lazzeretto"
       }
     },
     {
@@ -4680,7 +6084,16 @@
         "chapter": "Capitolo XXXV",
         "page_number": 674,
         "subimage_index": 1,
-        "sequence": 674.1
+        "sequence": 674.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229170/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229170/canvas/p1",
+        "iiif_canvas_label": "Il viaggio di Renzo continua nel pieno del lazzeretto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229675",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229170/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230179",
+        "iiif_manifest_label": "Il viaggio di Renzo continua nel pieno del lazzeretto"
       }
     },
     {
@@ -4710,7 +6123,16 @@
         "chapter": "Capitolo XXXV",
         "page_number": 677,
         "subimage_index": 1,
-        "sequence": 677.1
+        "sequence": 677.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229171/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229171/canvas/p1",
+        "iiif_canvas_label": "Fra Cristoforo porta in braccio due bambini strillanti in una scena che sembra un presepe laico",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229676",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229171/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230180",
+        "iiif_manifest_label": "Fra Cristoforo porta in braccio due bambini strillanti in una scena che sembra un presepe laico"
       }
     },
     {
@@ -4740,7 +6162,16 @@
         "chapter": "Capitolo XXXV",
         "page_number": 679,
         "subimage_index": 1,
-        "sequence": 679.1
+        "sequence": 679.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229172/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229172/canvas/p1",
+        "iiif_canvas_label": "Renzo incontra fra Cristofroro",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229677",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229172/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230181",
+        "iiif_manifest_label": "Renzo incontra fra Cristofroro"
       }
     },
     {
@@ -4770,7 +6201,16 @@
         "chapter": "Capitolo XXXV",
         "page_number": 682,
         "subimage_index": 1,
-        "sequence": 682.1
+        "sequence": 682.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229173/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229173/canvas/p1",
+        "iiif_canvas_label": "Fra Cristoforo indica a Renzo la chiesa dove si radunano i guariti dalla peste e dove potrebbe trovarsi Lucia",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229678",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229173/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230182",
+        "iiif_manifest_label": "Fra Cristoforo indica a Renzo la chiesa dove si radunano i guariti dalla peste e dove potrebbe trovarsi Lucia"
       }
     },
     {
@@ -4801,7 +6241,16 @@
         "chapter": "Capitolo XXXV",
         "page_number": 684,
         "subimage_index": 1,
-        "sequence": 684.1
+        "sequence": 684.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229174/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229174/canvas/p1",
+        "iiif_canvas_label": "Fra Cristoforo adirato con Renzo che lo segue supplichevole",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229679",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229174/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230183",
+        "iiif_manifest_label": "Fra Cristoforo adirato con Renzo che lo segue supplichevole"
       }
     },
     {
@@ -4832,7 +6281,16 @@
         "chapter": "Capitolo XXXV",
         "page_number": 686,
         "subimage_index": 1,
-        "sequence": 686.1
+        "sequence": 686.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229175/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229175/canvas/p1",
+        "iiif_canvas_label": "Fra Cristoforo conduce Renzo dentro una capanna del lazzeretto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229680",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229175/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230184",
+        "iiif_manifest_label": "Fra Cristoforo conduce Renzo dentro una capanna del lazzeretto"
       }
     },
     {
@@ -4863,7 +6321,16 @@
         "chapter": "Capitolo XXXV",
         "page_number": 687,
         "subimage_index": 1,
-        "sequence": 687.1
+        "sequence": 687.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229176/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229176/canvas/p1",
+        "iiif_canvas_label": "Fra Cristoforo mostra a Renzo don Rodrigo infermo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229681",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229176/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230185",
+        "iiif_manifest_label": "Fra Cristoforo mostra a Renzo don Rodrigo infermo"
       }
     },
     {
@@ -4893,7 +6360,16 @@
         "chapter": "Capitolo XXXV",
         "page_number": 688,
         "subimage_index": 1,
-        "sequence": 688.1
+        "sequence": 688.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229177/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229177/canvas/p1",
+        "iiif_canvas_label": "Renzo e fra Cristoforo si separano",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229682",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229177/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230186",
+        "iiif_manifest_label": "Renzo e fra Cristoforo si separano"
       }
     },
     {
@@ -4923,7 +6399,16 @@
         "chapter": "Capitolo XXXVI",
         "page_number": 689,
         "subimage_index": 1,
-        "sequence": 689.1
+        "sequence": 689.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229178/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229178/canvas/p1",
+        "iiif_canvas_label": "Renzo medita da solo nel lazzeretto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229683",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229178/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230187",
+        "iiif_manifest_label": "Renzo medita da solo nel lazzeretto"
       }
     },
     {
@@ -4952,7 +6437,16 @@
         "chapter": "Capitolo XXXVI",
         "page_number": 689,
         "subimage_index": 2,
-        "sequence": 689.2
+        "sequence": 689.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229179/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229179/canvas/p1",
+        "iiif_canvas_label": "Don Rodrigo mentre giace morente",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229684",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229179/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230188",
+        "iiif_manifest_label": "Don Rodrigo mentre giace morente"
       }
     },
     {
@@ -4982,7 +6476,16 @@
         "chapter": "Capitolo XXXVI",
         "page_number": 690,
         "subimage_index": 1,
-        "sequence": 690.1
+        "sequence": 690.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229180/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229180/canvas/p1",
+        "iiif_canvas_label": "Renzo vede padre Felice comparire nel portico della cappella ottagonale del lazzeretto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229685",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229180/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230189",
+        "iiif_manifest_label": "Renzo vede padre Felice comparire nel portico della cappella ottagonale del lazzeretto"
       }
     },
     {
@@ -5012,7 +6515,16 @@
         "chapter": "Capitolo XXXVI",
         "page_number": 693,
         "subimage_index": 1,
-        "sequence": 693.1
+        "sequence": 693.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229181/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229181/canvas/p1",
+        "iiif_canvas_label": "Renzo vede arrivare padre Felice",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229686",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229181/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230190",
+        "iiif_manifest_label": "Renzo vede arrivare padre Felice"
       }
     },
     {
@@ -5043,7 +6555,16 @@
         "chapter": "Capitolo XXXVI",
         "page_number": 696,
         "subimage_index": 1,
-        "sequence": 696.1
+        "sequence": 696.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229182/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229182/canvas/p1",
+        "iiif_canvas_label": "Renzo e Lucia si ritrovano",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229687",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229182/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230191",
+        "iiif_manifest_label": "Renzo e Lucia si ritrovano"
       }
     },
     {
@@ -5074,7 +6595,16 @@
         "chapter": "Capitolo XXXVI",
         "page_number": 701,
         "subimage_index": 1,
-        "sequence": 701.1
+        "sequence": 701.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229183/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229183/canvas/p1",
+        "iiif_canvas_label": "Renzo e Lucia discutono del voto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229688",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229183/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230192",
+        "iiif_manifest_label": "Renzo e Lucia discutono del voto"
       }
     },
     {
@@ -5104,7 +6634,16 @@
         "chapter": "Capitolo XXXVI",
         "page_number": 702,
         "subimage_index": 1,
-        "sequence": 702.1
+        "sequence": 702.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229184/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229184/canvas/p1",
+        "iiif_canvas_label": "Lucia si lascia cadere a terra e piange con la testa poggiata al letto della mercantessa che la consola",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229689",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229184/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230193",
+        "iiif_manifest_label": "Lucia si lascia cadere a terra e piange con la testa poggiata al letto della mercantessa che la consola"
       }
     },
     {
@@ -5134,7 +6673,16 @@
         "chapter": "Capitolo XXXVI",
         "page_number": 703,
         "subimage_index": 1,
-        "sequence": 703.1
+        "sequence": 703.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229185/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229185/canvas/p1",
+        "iiif_canvas_label": "Renzo trova fra Cristoforo che stava confortando un moribondo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229690",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229185/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230194",
+        "iiif_manifest_label": "Renzo trova fra Cristoforo che stava confortando un moribondo"
       }
     },
     {
@@ -5166,7 +6714,16 @@
         "chapter": "Capitolo XXXVI",
         "page_number": 707,
         "subimage_index": 1,
-        "sequence": 707.1
+        "sequence": 707.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229186/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229186/canvas/p1",
+        "iiif_canvas_label": "Fra Cristoforo scioglie Lucia dal voto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229691",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229186/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230195",
+        "iiif_manifest_label": "Fra Cristoforo scioglie Lucia dal voto"
       }
     },
     {
@@ -5197,7 +6754,16 @@
         "chapter": "Capitolo XXXVI",
         "page_number": 708,
         "subimage_index": 1,
-        "sequence": 708.1
+        "sequence": 708.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229187/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229187/canvas/p1",
+        "iiif_canvas_label": "Fra Cristoforo dona a Renzo e Lucia il \"pane del perdono\"",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229692",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229187/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230196",
+        "iiif_manifest_label": "Fra Cristoforo dona a Renzo e Lucia il \"pane del perdono\""
       }
     },
     {
@@ -5227,7 +6793,16 @@
         "chapter": "Capitolo XXXVI",
         "page_number": 710,
         "subimage_index": 1,
-        "sequence": 710.1
+        "sequence": 710.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229188/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229188/canvas/p1",
+        "iiif_canvas_label": "Fra Cristoforo saluta Renzo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229693",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229188/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230197",
+        "iiif_manifest_label": "Fra Cristoforo saluta Renzo"
       }
     },
     {
@@ -5257,7 +6832,16 @@
         "chapter": "Capitolo XXXVII",
         "page_number": 711,
         "subimage_index": 2,
-        "sequence": 711.2
+        "sequence": 711.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229190/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229190/canvas/p1",
+        "iiif_canvas_label": "Porta del lazzeretto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229695",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229190/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230199",
+        "iiif_manifest_label": "Porta del lazzeretto"
       }
     },
     {
@@ -5288,7 +6872,16 @@
         "chapter": "Capitolo XXXVII",
         "page_number": 717,
         "subimage_index": 1,
-        "sequence": 717.1
+        "sequence": 717.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229193/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229193/canvas/p1",
+        "iiif_canvas_label": "Renzo ritrova Agnese",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229698",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229193/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230202",
+        "iiif_manifest_label": "Renzo ritrova Agnese"
       }
     },
     {
@@ -5318,7 +6911,16 @@
         "chapter": "Capitolo XXXVII",
         "page_number": 719,
         "subimage_index": 1,
-        "sequence": 719.1
+        "sequence": 719.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229194/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229194/canvas/p1",
+        "iiif_canvas_label": "Renzo incontra Bortolo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229699",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229194/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230203",
+        "iiif_manifest_label": "Renzo incontra Bortolo"
       }
     },
     {
@@ -5347,7 +6949,16 @@
         "chapter": "Capitolo XXXVII",
         "page_number": 723,
         "subimage_index": 1,
-        "sequence": 723.1
+        "sequence": 723.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229196/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229196/canvas/p1",
+        "iiif_canvas_label": "La monaca di Monza in atto di devozione",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229701",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229196/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230205",
+        "iiif_manifest_label": "La monaca di Monza in atto di devozione"
       }
     },
     {
@@ -5377,7 +6988,16 @@
         "chapter": "CI_Introduzione",
         "page_number": 749,
         "subimage_index": 1,
-        "sequence": 749.1
+        "sequence": 749.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229210/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229210/canvas/p1",
+        "iiif_canvas_label": "Distruzione della casa di Giangiacomo Mora",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229715",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229210/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230218",
+        "iiif_manifest_label": "Distruzione della casa di Giangiacomo Mora"
       }
     },
     {
@@ -5405,7 +7025,16 @@
         "chapter": "CI_Introduzione",
         "page_number": 756,
         "subimage_index": 1,
-        "sequence": 756.1
+        "sequence": 756.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229213/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229213/canvas/p1",
+        "iiif_canvas_label": "Colonne di San Lorenzo a Milano",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229718",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229213/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230221",
+        "iiif_manifest_label": "Colonne di San Lorenzo a Milano"
       }
     },
     {
@@ -5435,7 +7064,16 @@
         "chapter": "CI_Capitolo I",
         "page_number": 757,
         "subimage_index": 1,
-        "sequence": 757.1
+        "sequence": 757.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229214/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229214/canvas/p1",
+        "iiif_canvas_label": "La testimone Caterina Rosa vede venire un uomo",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229719",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229214/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230222",
+        "iiif_manifest_label": "La testimone Caterina Rosa vede venire un uomo"
       }
     },
     {
@@ -5462,7 +7100,16 @@
         "chapter": "CI_Capitolo I",
         "page_number": 757,
         "subimage_index": 2,
-        "sequence": 757.2
+        "sequence": 757.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229215/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229215/canvas/p1",
+        "iiif_canvas_label": "Secondo il verbale l'uomo aveva una carta in mano e sembrava che scrivesse",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229720",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229215/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230223",
+        "iiif_manifest_label": "Secondo il verbale l'uomo aveva una carta in mano e sembrava che scrivesse"
       }
     },
     {
@@ -5491,7 +7138,16 @@
         "chapter": "CI_Capitolo I",
         "page_number": 758,
         "subimage_index": 1,
-        "sequence": 758.1
+        "sequence": 758.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229216/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229216/canvas/p1",
+        "iiif_canvas_label": "Secondo la testimonianza di Ottavia Bono l'uomo si fermò alla fine del muro del giardino di casa dei Crivelli e vi sfregò sopra la mano",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229721",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229216/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230224",
+        "iiif_manifest_label": "Secondo la testimonianza di Ottavia Bono l'uomo si fermò alla fine del muro del giardino di casa dei Crivelli e vi sfregò sopra la mano"
       }
     },
     {
@@ -5524,7 +7180,16 @@
         "chapter": "CI_Capitolo I",
         "page_number": 760,
         "subimage_index": 1,
-        "sequence": 760.1
+        "sequence": 760.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229217/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229217/canvas/p1",
+        "iiif_canvas_label": "Al barbiere Giangiacomo Mora pareva che fossero stati unti i muri della sua casa",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229722",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229217/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230225",
+        "iiif_manifest_label": "Al barbiere Giangiacomo Mora pareva che fossero stati unti i muri della sua casa"
       }
     },
     {
@@ -5555,7 +7220,16 @@
         "chapter": "CI_Capitolo I",
         "page_number": 761,
         "subimage_index": 1,
-        "sequence": 761.1
+        "sequence": 761.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229218/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229218/canvas/p1",
+        "iiif_canvas_label": "Il capitano di giustizia detta al notaio criminale l'accusa contro ignoti",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229723",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229218/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230226",
+        "iiif_manifest_label": "Il capitano di giustizia detta al notaio criminale l'accusa contro ignoti"
       }
     },
     {
@@ -5585,7 +7259,16 @@
         "chapter": "CI_Capitolo I",
         "page_number": 763,
         "subimage_index": 1,
-        "sequence": 763.1
+        "sequence": 763.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229219/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229219/canvas/p1",
+        "iiif_canvas_label": "Arresto di Guglielmo Piazza",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229724",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229219/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230227",
+        "iiif_manifest_label": "Arresto di Guglielmo Piazza"
       }
     },
     {
@@ -5618,7 +7301,16 @@
         "chapter": "CI_Capitolo I",
         "page_number": 764,
         "subimage_index": 1,
-        "sequence": 764.1
+        "sequence": 764.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229220/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229220/canvas/p1",
+        "iiif_canvas_label": "Il Piazza viene interrogato",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229725",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229220/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230228",
+        "iiif_manifest_label": "Il Piazza viene interrogato"
       }
     },
     {
@@ -5649,7 +7341,16 @@
         "chapter": "CI_Capitolo III",
         "page_number": 784,
         "subimage_index": 1,
-        "sequence": 784.1
+        "sequence": 784.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229228/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229228/canvas/p1",
+        "iiif_canvas_label": "Il Piazza viene interrogato e torturato",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229733",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229228/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230236",
+        "iiif_manifest_label": "Il Piazza viene interrogato e torturato"
       }
     },
     {
@@ -5681,7 +7382,16 @@
         "chapter": "CI_Capitolo III",
         "page_number": 785,
         "subimage_index": 1,
-        "sequence": 785.1
+        "sequence": 785.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229229/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229229/canvas/p1",
+        "iiif_canvas_label": "Il Piazza dopo la tortura, seduto, afferma di non sapere niente e chiede dell'acqua",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229734",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229229/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230237",
+        "iiif_manifest_label": "Il Piazza dopo la tortura, seduto, afferma di non sapere niente e chiede dell'acqua"
       }
     },
     {
@@ -5710,7 +7420,16 @@
         "chapter": "CI_Capitolo III",
         "page_number": 786,
         "subimage_index": 1,
-        "sequence": 786.1
+        "sequence": 786.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229230/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229230/canvas/p1",
+        "iiif_canvas_label": "Assemblea del Senato in cui viene letto il decreto che ingiunge di proseguire la tortura",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229735",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229230/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230238",
+        "iiif_manifest_label": "Assemblea del Senato in cui viene letto il decreto che ingiunge di proseguire la tortura"
       }
     },
     {
@@ -5740,7 +7459,16 @@
         "chapter": "CI_Capitolo III",
         "page_number": 788,
         "subimage_index": 1,
-        "sequence": 788.1
+        "sequence": 788.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229231/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229231/canvas/p1",
+        "iiif_canvas_label": "Testimonianza di Caterina Rosa",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229736",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229231/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230239",
+        "iiif_manifest_label": "Testimonianza di Caterina Rosa"
       }
     },
     {
@@ -5770,7 +7498,16 @@
         "chapter": "CI_Capitolo III",
         "page_number": 789,
         "subimage_index": 1,
-        "sequence": 789.1
+        "sequence": 789.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229232/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229232/canvas/p1",
+        "iiif_canvas_label": "Guglielmo Piazza, sfinito dopo la tortura, viene ricondotto in carcere",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229737",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229232/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230240",
+        "iiif_manifest_label": "Guglielmo Piazza, sfinito dopo la tortura, viene ricondotto in carcere"
       }
     },
     {
@@ -5801,7 +7538,16 @@
         "chapter": "CI_Capitolo III",
         "page_number": 795,
         "subimage_index": 1,
-        "sequence": 795.1
+        "sequence": 795.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229234/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229234/canvas/p1",
+        "iiif_canvas_label": "Viene offerta al Piazza la promessa di impunità in cambio della confessione",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229739",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229234/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230242",
+        "iiif_manifest_label": "Viene offerta al Piazza la promessa di impunità in cambio della confessione"
       }
     },
     {
@@ -5832,7 +7578,16 @@
         "chapter": "CI_Capitolo III",
         "page_number": 796,
         "subimage_index": 1,
-        "sequence": 796.1
+        "sequence": 796.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229235/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229235/canvas/p1",
+        "iiif_canvas_label": "Il Piazza chiede al Mora un unguento contro la peste",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229740",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229235/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230243",
+        "iiif_manifest_label": "Il Piazza chiede al Mora un unguento contro la peste"
       }
     },
     {
@@ -5864,7 +7619,16 @@
         "chapter": "CI_Capitolo III",
         "page_number": 797,
         "subimage_index": 1,
-        "sequence": 797.1
+        "sequence": 797.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229236/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229236/canvas/p1",
+        "iiif_canvas_label": "Nuova interrogazione del Piazza, stavolta senza tortura",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229741",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229236/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230244",
+        "iiif_manifest_label": "Nuova interrogazione del Piazza, stavolta senza tortura"
       }
     },
     {
@@ -5897,7 +7661,16 @@
         "chapter": "CI_Capitolo IV",
         "page_number": 801,
         "subimage_index": 2,
-        "sequence": 801.2
+        "sequence": 801.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229239/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229239/canvas/p1",
+        "iiif_canvas_label": "L'auditore e gli sbirri entrano nella bottega del Mora, arrestandolo insieme al figlio",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229744",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229239/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230247",
+        "iiif_manifest_label": "L'auditore e gli sbirri entrano nella bottega del Mora, arrestandolo insieme al figlio"
       }
     },
     {
@@ -5930,7 +7703,16 @@
         "chapter": "CI_Capitolo IV",
         "page_number": 803,
         "subimage_index": 1,
-        "sequence": 803.1
+        "sequence": 803.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229240/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229240/canvas/p1",
+        "iiif_canvas_label": "Il Mora mostra spontaneamente e inconsapevolemente i suoi unguenti",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229745",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229240/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230248",
+        "iiif_manifest_label": "Il Mora mostra spontaneamente e inconsapevolemente i suoi unguenti"
       }
     },
     {
@@ -5962,7 +7744,16 @@
         "chapter": "CI_Capitolo IV",
         "page_number": 803,
         "subimage_index": 2,
-        "sequence": 803.2
+        "sequence": 803.2,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229241/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229241/canvas/p1",
+        "iiif_canvas_label": "La bottega del Mora viene frugata dappertutto",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229746",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229241/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230249",
+        "iiif_manifest_label": "La bottega del Mora viene frugata dappertutto"
       }
     },
     {
@@ -5994,7 +7785,16 @@
         "chapter": "CI_Capitolo IV",
         "page_number": 804,
         "subimage_index": 1,
-        "sequence": 804.1
+        "sequence": 804.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229242/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229242/canvas/p1",
+        "iiif_canvas_label": "In un cortiletto viene trovato un fornello con dentro una caldara di rame",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229747",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229242/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230250",
+        "iiif_manifest_label": "In un cortiletto viene trovato un fornello con dentro una caldara di rame"
       }
     },
     {
@@ -6027,7 +7827,16 @@
         "chapter": "CI_Capitolo IV",
         "page_number": 805,
         "subimage_index": 1,
-        "sequence": 805.1
+        "sequence": 805.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229243/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229243/canvas/p1",
+        "iiif_canvas_label": "Il Mora strappa il foglio di una ricetta, gesto che verrà fatto valere contro di lui",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229748",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229243/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230251",
+        "iiif_manifest_label": "Il Mora strappa il foglio di una ricetta, gesto che verrà fatto valere contro di lui"
       }
     },
     {
@@ -6060,7 +7869,16 @@
         "chapter": "CI_Capitolo IV",
         "page_number": 806,
         "subimage_index": 1,
-        "sequence": 806.1
+        "sequence": 806.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229244/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229244/canvas/p1",
+        "iiif_canvas_label": "Il Mora chiede misericordia",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229749",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229244/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230252",
+        "iiif_manifest_label": "Il Mora chiede misericordia"
       }
     },
     {
@@ -6090,7 +7908,16 @@
         "chapter": "CI_Capitolo IV",
         "page_number": 807,
         "subimage_index": 1,
-        "sequence": 807.1
+        "sequence": 807.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229245/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229245/canvas/p1",
+        "iiif_canvas_label": "Indagine da parte dei medici convocati a esaminare la sostanza rinvenuta nel fornello murato del piccolo cortile",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229750",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229245/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230253",
+        "iiif_manifest_label": "Indagine da parte dei medici convocati a esaminare la sostanza rinvenuta nel fornello murato del piccolo cortile"
       }
     },
     {
@@ -6122,7 +7949,16 @@
         "chapter": "CI_Capitolo IV",
         "page_number": 814,
         "subimage_index": 1,
-        "sequence": 814.1
+        "sequence": 814.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229246/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229246/canvas/p1",
+        "iiif_canvas_label": "Il Mora nega di aver partecipato all'unzione della peste",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229751",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229246/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230254",
+        "iiif_manifest_label": "Il Mora nega di aver partecipato all'unzione della peste"
       }
     },
     {
@@ -6154,7 +7990,16 @@
         "chapter": "CI_Capitolo IV",
         "page_number": 815,
         "subimage_index": 1,
-        "sequence": 815.1
+        "sequence": 815.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229247/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229247/canvas/p1",
+        "iiif_canvas_label": "Drammatico faccia a faccia tra i due sospetti",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229752",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229247/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230255",
+        "iiif_manifest_label": "Drammatico faccia a faccia tra i due sospetti"
       }
     },
     {
@@ -6183,7 +8028,13 @@
         "chapter": "CI_Capitolo IV",
         "page_number": 816,
         "subimage_index": 1,
-        "sequence": 816.1
+        "sequence": 816.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229248/manifest",
+        "iiif_canvas_count": 1,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229248/canvas/p1",
+        "iiif_canvas_label": "Pagina",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230256",
+        "iiif_manifest_label": "Il Piazza viene convinto a rivelare i dettagli della sua (inesistente) amicizia col Mora"
       }
     },
     {
@@ -6213,7 +8064,16 @@
         "chapter": "CI_Capitolo IV",
         "page_number": 820,
         "subimage_index": 1,
-        "sequence": 820.1
+        "sequence": 820.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229249/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229249/canvas/p1",
+        "iiif_canvas_label": "Il Mora fu messo alla tortura",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229753",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229249/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230257",
+        "iiif_manifest_label": "Il Mora fu messo alla tortura"
       }
     },
     {
@@ -6243,7 +8103,16 @@
         "chapter": "CI_Capitolo IV",
         "page_number": 825,
         "subimage_index": 1,
-        "sequence": 825.1
+        "sequence": 825.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229250/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229250/canvas/p1",
+        "iiif_canvas_label": "Il Mora in carcere, preso dal pensiero della moglie e dei figli",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229754",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229250/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230258",
+        "iiif_manifest_label": "Il Mora in carcere, preso dal pensiero della moglie e dei figli"
       }
     },
     {
@@ -6273,7 +8142,16 @@
         "chapter": "CI_Capitolo IV",
         "page_number": 826,
         "subimage_index": 1,
-        "sequence": 826.1
+        "sequence": 826.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229251/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229251/canvas/p1",
+        "iiif_canvas_label": "Il Mora inginocchiato ai piedi del Crocifisso",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229755",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229251/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230259",
+        "iiif_manifest_label": "Il Mora inginocchiato ai piedi del Crocifisso"
       }
     },
     {
@@ -6303,7 +8181,16 @@
         "chapter": "CI_Capitolo IV",
         "page_number": 827,
         "subimage_index": 1,
-        "sequence": 827.1
+        "sequence": 827.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229252/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229252/canvas/p1",
+        "iiif_canvas_label": "Il Mora, esausto e terrorizzato alla vista degli strumenti di tortura, dichiara di essere pronto a firmare la confessione",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229756",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229252/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230260",
+        "iiif_manifest_label": "Il Mora, esausto e terrorizzato alla vista degli strumenti di tortura, dichiara di essere pronto a firmare la confessione"
       }
     },
     {
@@ -6335,7 +8222,16 @@
         "chapter": "CI_Capitolo IV",
         "page_number": 829,
         "subimage_index": 1,
-        "sequence": 829.1
+        "sequence": 829.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229253/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229253/canvas/p1",
+        "iiif_canvas_label": "Viene notificata al Mora l'accusa formale di aver sparso il contagio della peste",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229757",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229253/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230261",
+        "iiif_manifest_label": "Viene notificata al Mora l'accusa formale di aver sparso il contagio della peste"
       }
     },
     {
@@ -6366,7 +8262,16 @@
         "chapter": "CI_Capitolo V",
         "page_number": 831,
         "subimage_index": 1,
-        "sequence": 831.1
+        "sequence": 831.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229255/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229255/canvas/p1",
+        "iiif_canvas_label": "Perquisizione in casa del Mora durante la quale viene trovata la ciotola coi pochi soldi ricavati per il suo lavoro",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229759",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229255/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230263",
+        "iiif_manifest_label": "Perquisizione in casa del Mora durante la quale viene trovata la ciotola coi pochi soldi ricavati per il suo lavoro"
       }
     },
     {
@@ -6396,7 +8301,16 @@
         "chapter": "CI_Capitolo V",
         "page_number": 832,
         "subimage_index": 1,
-        "sequence": 832.1
+        "sequence": 832.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229256/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229256/canvas/p1",
+        "iiif_canvas_label": "Visita del notaio Mauri al Mora",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229760",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229256/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230264",
+        "iiif_manifest_label": "Visita del notaio Mauri al Mora"
       }
     },
     {
@@ -6426,7 +8340,16 @@
         "chapter": "CI_Capitolo V",
         "page_number": 834,
         "subimage_index": 1,
-        "sequence": 834.1
+        "sequence": 834.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229257/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229257/canvas/p1",
+        "iiif_canvas_label": "Il governatore riceve l'auditore della Sanità",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229761",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229257/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230265",
+        "iiif_manifest_label": "Il governatore riceve l'auditore della Sanità"
       }
     },
     {
@@ -6456,7 +8379,16 @@
         "chapter": "CI_Capitolo V",
         "page_number": 836,
         "subimage_index": 1,
-        "sequence": 836.1
+        "sequence": 836.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229258/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229258/canvas/p1",
+        "iiif_canvas_label": "Il Mora parla con il servitore dell'auditore della Sanità",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229762",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229258/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230266",
+        "iiif_manifest_label": "Il Mora parla con il servitore dell'auditore della Sanità"
       }
     },
     {
@@ -6486,7 +8418,16 @@
         "chapter": "CI_Capitolo V",
         "page_number": 838,
         "subimage_index": 1,
-        "sequence": 838.1
+        "sequence": 838.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229259/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229259/canvas/p1",
+        "iiif_canvas_label": "Arresto del Padilla",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229763",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229259/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230267",
+        "iiif_manifest_label": "Arresto del Padilla"
       }
     },
     {
@@ -6517,7 +8458,16 @@
         "chapter": "CI_Capitolo V",
         "page_number": 839,
         "subimage_index": 1,
-        "sequence": 839.1
+        "sequence": 839.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229260/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229260/canvas/p1",
+        "iiif_canvas_label": "Il Piazza e il Mora sono portati al supplizio",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229764",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229260/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230268",
+        "iiif_manifest_label": "Il Piazza e il Mora sono portati al supplizio"
       }
     },
     {
@@ -6548,7 +8498,16 @@
         "chapter": "CI_Capitolo V",
         "page_number": 840,
         "subimage_index": 1,
-        "sequence": 840.1
+        "sequence": 840.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229261/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229261/canvas/p1",
+        "iiif_canvas_label": "Il capitano Gorini parla con Piazza, disperato, persuadendolo ad accettare il conforto religioso",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229765",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229261/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230269",
+        "iiif_manifest_label": "Il capitano Gorini parla con Piazza, disperato, persuadendolo ad accettare il conforto religioso"
       }
     },
     {
@@ -6579,7 +8538,16 @@
         "chapter": "CI_Capitolo V",
         "page_number": 841,
         "subimage_index": 1,
-        "sequence": 841.1
+        "sequence": 841.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229262/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229262/canvas/p1",
+        "iiif_canvas_label": "Due cappuccini svolgono la funzione di notaio e testimone delle dichiarazioni del Mora",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229766",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229262/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230270",
+        "iiif_manifest_label": "Due cappuccini svolgono la funzione di notaio e testimone delle dichiarazioni del Mora"
       }
     },
     {
@@ -6610,7 +8578,16 @@
         "chapter": "CI_Capitolo VI",
         "page_number": 845,
         "subimage_index": 1,
-        "sequence": 845.1
+        "sequence": 845.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229264/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229264/canvas/p1",
+        "iiif_canvas_label": "Il Baruello viene preso da frenesia",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229768",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229264/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230272",
+        "iiif_manifest_label": "Il Baruello viene preso da frenesia"
       }
     },
     {
@@ -6640,7 +8617,16 @@
         "chapter": "CI_Capitolo VI",
         "page_number": 847,
         "subimage_index": 1,
-        "sequence": 847.1
+        "sequence": 847.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229265/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229265/canvas/p1",
+        "iiif_canvas_label": "Il Baruello in punto di morte confessa al compagno di cella di aver inventato le dichiarazioni",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229769",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229265/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230273",
+        "iiif_manifest_label": "Il Baruello in punto di morte confessa al compagno di cella di aver inventato le dichiarazioni"
       }
     },
     {
@@ -6671,7 +8657,16 @@
         "chapter": "CI_Capitolo VI",
         "page_number": 850,
         "subimage_index": 1,
-        "sequence": 850.1
+        "sequence": 850.1,
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/229266/manifest",
+        "iiif_canvas_count": 2,
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229266/canvas/p1",
+        "iiif_canvas_label": "Il Padilla si dichiara innocente di fronte agli inquirenti",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229770",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/229266/canvas/p2",
+        "iiif_page_canvas_label": "Pagina",
+        "iiif_page_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/230274",
+        "iiif_manifest_label": "Il Padilla si dichiara innocente di fronte agli inquirenti"
       }
     }
   ]
