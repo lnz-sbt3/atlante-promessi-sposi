@@ -14,6 +14,7 @@ La mappa rappresenta una demo interattiva da presentare alla Notte dei Ricercato
 - **Filtri Avanzati**: Ricerca per capitoli, luoghi, autori, personaggi e pagine
 - **Spider Graph**: Visualizzazione delle connessioni tra elementi dello stesso luogo
 - **Card Informative**: Dettagli completi per ogni elemento
+- **Visualizzazione IIIF**: Integrazione con Mirador 3 per esplorare le pagine dei manoscritti ad alta risoluzione
 - **Breadcrumb System**: Gestione filtri attivi con URL persistenti
 - **Design Responsivo**: Ottimizzato per desktop e dispositivi mobili
 
@@ -23,6 +24,12 @@ I dati sono stati estratti dalla **Digital Library del FICLIT** (Dipartimento di
 
 - **API REST**: https://dlrc.ficlit.unibo.it/api/items
 - **Digital Library FICLIT**: https://dlrc.ficlit.unibo.it
+
+I dati sono stati arricchiti con metadati **IIIF (International Image Interoperability Framework)** per consentire la visualizzazione interattiva dei manoscritti attraverso il viewer Mirador. Ogni illustrazione è collegata al manifest IIIF che contiene sia l'immagine dell'illustrazione che la pagina completa del manoscritto originale.
+
+**Standard IIIF**:
+- Presentation API 2.1: [https://iiif.io/api/presentation/2.1/](https://iiif.io/api/presentation/2.1/)
+- Image API 2.0: [https://iiif.io/api/image/2.0/](https://iiif.io/api/image/2.0/)
 
 ## Fonte testuale
 
@@ -49,7 +56,8 @@ Se il dataset principale non dovesse caricarsi, l'applicazione caricherà automa
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+)
 - **Mappe**: Leaflet.js
 - **Visualizzazioni**: D3.js
-- **Dati**: GeoJSON
+- **Viewer IIIF**: Mirador 3
+- **Dati**: GeoJSON con metadati IIIF
 - **Stile**: CSS Grid, Flexbox, Gradients
 
 ## Struttura del Progetto
