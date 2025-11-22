@@ -12,6 +12,9 @@
   
   <!-- Project CSS -->
   <link rel="stylesheet" href="css/styles.css" />
+
+<!-- Mirador 3 IIIF Viewer -->
+  <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
 </head>
 
 <body>
@@ -86,6 +89,15 @@
   </div>
 
   <div id="place-indicator" class="place-indicator"></div>
+
+    <!-- Mirador Modal Overlay -->
+  <div id="mirador-modal" class="mirador-modal">
+    <div class="mirador-modal-header">
+      <h3 id="mirador-title">Esplora il manoscritto</h3>
+      <button id="mirador-close" class="mirador-close" aria-label="Chiudi">✕</button>
+    </div>
+    <div id="mirador-viewer" class="mirador-viewer"></div>
+  </div>
 
   <!-- External JS Dependencies -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
