@@ -110,8 +110,7 @@ http://localhost:8000
 
 ## Formato Dati
 
-Il progetto utilizza file GeoJSON con la seguente struttura:
-
+Il progetto utilizza file GeoJSON arricchiti con metadati IIIF:
 ```json
 {
   "type": "FeatureCollection",
@@ -128,7 +127,11 @@ Il progetto utilizza file GeoJSON con la seguente struttura:
         "characters": ["Personaggio"],
         "type": "Tipo illustrazione",
         "image": "path/to/image.jpg",
-        "link": "https://link-to-resource"
+        "link": "https://link-to-resource",
+        "iiif_manifest": "https://dlrc.ficlit.unibo.it/iiif/2/228774/manifest",
+        "iiif_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228774/canvas/p1",
+        "iiif_page_canvas_id": "https://dlrc.ficlit.unibo.it/iiif/2/228774/canvas/p2",
+        "iiif_image_service": "https://dlrc.ficlit.unibo.it/iiif/2/229451"
       },
       "geometry": {
         "type": "Point",
@@ -184,8 +187,11 @@ Questo progetto è rilasciato sotto licenza MIT. Vedi il file `LICENSE` per dett
 
 - [Leaflet](https://leafletjs.com/) per la libreria di mappe
 - [D3.js](https://d3js.org/) per le visualizzazioni
+- [Mirador](https://projectmirador.org/) per il viewer IIIF
+- [IIIF Consortium](https://iiif.io/) per gli standard di interoperabilità
 - [OpenStreetMap](https://www.openstreetmap.org/) per i dati cartografici
 - [CartoDB](https://carto.com/) per i tile della mappa
+- Digital Library FICLIT per l'accesso ai dati IIIF
 
 ## Contatti
 
