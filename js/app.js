@@ -435,6 +435,8 @@ let mapCenter = { x: 0, y: 0 };
 let lastTouchTime = 0;
 let performanceMode = 'auto';
 
+let miradorInstance = null;
+
 let mouseStillTimer = null;
 let isMouseStill = false;
 
@@ -1446,6 +1448,9 @@ function hideQuickTooltip() { if (quickTooltip) { quickTooltip.remove(); quickTo
 // ==========================================
 
 function showItemCardDirect(item) {
+  console.log('🎴 showItemCardDirect - Item ricevuto:', item);
+  console.log('🔍 Proprietà iiif_manifest:', item.iiif_manifest);
+  console.log('🔍 Tutte le chiavi:', Object.keys(item));
   closeItemCard(); closeFABPanels(); if (isMobile()) closeFABCompletely();
   if (timeline.classList.contains('active')) { timeline.classList.remove('active'); updateControlPositions(); map.invalidateSize(); }
 
@@ -1471,12 +1476,27 @@ function showItemCardDirect(item) {
   }
   if (item.place) card.style.borderLeft = '4px solid ' + getColorForPlace(item.place);
   document.body.appendChild(card);
+    // Aggiungi pulsante Mirador se disponibile
+  if (item.iiif_manifest) {
+    const miradorBtn = document.createElement('button');
+    miradorBtn.className = 'mirador-button';
+    miradorBtn.innerHTML = 'Vedi nel manoscritto';
+    miradorBtn.onclick = function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      openMirador(item);
+    };
+    card.appendChild(miradorBtn);
+  }
   currentItemCard = card;
   adjustCardPosition(card); updateViewportState();
   setTimeout(() => document.addEventListener('click', closeItemCardOnClickOutside), 100);
 }
 
 function showItemCardLinked(item, mapCenter) {
+  console.log('🎴 showItemCardLinked - Item ricevuto:', item);
+  console.log('🔍 Proprietà iiif_manifest:', item.iiif_manifest);
+  console.log('🔍 Tutte le chiavi:', Object.keys(item));
   closeItemCard(); closeFABPanels(); if (isMobile()) closeFABCompletely();
   if (timeline.classList.contains('active')) { timeline.classList.remove('active'); updateControlPositions(); map.invalidateSize(); }
 
@@ -1506,6 +1526,18 @@ function showItemCardLinked(item, mapCenter) {
   card.linkedCenter = mapCenter;
   if (item.place) card.style.borderLeft = '4px solid ' + getColorForPlace(item.place);
   document.body.appendChild(card);
+    // Aggiungi pulsante Mirador se disponibile
+  if (item.iiif_manifest) {
+    const miradorBtn = document.createElement('button');
+    miradorBtn.className = 'mirador-button';
+    miradorBtn.innerHTML = 'Vedi nel manoscritto';
+    miradorBtn.onclick = function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      openMirador(item);
+    };
+    card.appendChild(miradorBtn);
+  }
   currentItemCard = card;
   if (mapCenter && !isMobile()) createConnectionLine(mapCenter, card);
   adjustCardPosition(card); updateViewportState();
@@ -1855,16 +1887,21 @@ function processGeoJSONData(data) {
     
     const cityInfo = cityData.get(place);
     const item = {
-      sequence: sequence,
-      title: props.title || "Senza titolo",
-      chapter: chapter,
-      page: props.page_number || "?",
-      place: place,
-      authors: authors,
-      characters: characters,
-      image: props.image || "",
-      link: props.link || "#"
-    };
+    sequence: sequence,
+    title: props.title || "Senza titolo",
+    chapter: chapter,
+    page: props.page_number || "?",
+    place: place,
+    authors: authors,
+    characters: characters,
+    image: props.image || "",
+    link: props.link || "#",
+    iiif_manifest: props.iiif_manifest || null,
+    iiif_canvas_id: props.iiif_canvas_id || null,
+    iiif_page_canvas_id: props.iiif_page_canvas_id || null,
+    iiif_image_service: props.iiif_image_service || null,
+    iiif_page_image_service: props.iiif_page_image_service || null
+};
     
     cityInfo.items.push(item);
 
@@ -2279,3 +2316,175 @@ setTimeout(() => {
     }
   });
 }, 1000);
+
+// ==========================================
+// MIRADOR IIIF VIEWER FUNCTIONS
+// ==========================================
+
+/**
+ * Apre il viewer Mirador con il manifest IIIF dell'item
+ */
+function openMirador(item) {
+  const manifestUrl = item.iiif_manifest;
+  const canvasId = item.iiif_page_canvas_id;
+  const title = item.title || 'Manoscritto';
+  
+  if (!manifestUrl) {
+    console.error('Manifest IIIF non trovato');
+    return;
+  }
+  
+  console.log('🔍 Apertura Mirador:', manifestUrl);
+  console.log('📄 Canvas pagina:', canvasId);
+  
+  // Mostra il modal
+  const modal = document.getElementById('mirador-modal');
+  const titleEl = document.getElementById('mirador-title');
+  
+  if (!modal || !titleEl) {
+    console.error('Elementi modal non trovati nel DOM');
+    return;
+  }
+  
+  modal.classList.add('active');
+  titleEl.textContent = title;
+  
+  // Pulisci istanza precedente
+  if (miradorInstance) {
+    const viewerContainer = document.getElementById('mirador-viewer');
+    viewerContainer.innerHTML = '';
+    miradorInstance = null;
+  }
+  
+  // Configura Mirador
+  const config = {
+    id: 'mirador-viewer',
+    
+    // Configurazione finestra principale
+    windows: [{
+      manifestId: manifestUrl,
+      canvasId: canvasId,
+      thumbnailNavigationPosition: 'off'
+    }],
+    
+    // Configurazione finestra viewer
+    window: {
+      allowClose: false,        // Non permettere chiusura (usiamo il nostro pulsante)
+      allowMaximize: true,       // ✅ Permetti toggle fullscreen
+      allowFullscreen: true,     // ✅ Abilita fullscreen
+      allowWindowSideBar: true,  // ✅ Abilita sidebar
+      allowTopMenuButton: true,  // ✅ Mostra menu top
+      allowTopMenuButton: true,
+      
+      // Sidebar (indice/thumbnails)
+      sideBarOpen: false,
+      defaultSideBarPanel: 'canvas', // Mostra thumbnails di default
+      sideBarOpenByDefault: false,
+      
+      // Pannelli disponibili nella sidebar
+      panels: {
+        info: true,              // ✅ Pannello informazioni
+        attribution: true,       // ✅ Pannello attribuzione
+        canvas: true,            // ✅ Pannello thumbnails/indice
+        annotations: false,      // Annotazioni (se non servono)
+        search: false            // Ricerca (se il manifest la supporta)
+      },
+      
+      // Visualizzazioni disponibili
+      views: [
+        { key: 'single', behaviors: ['individuals'] },  // ✅ Vista singola
+        { key: 'book', behaviors: ['paged'] },          // ✅ Vista doppia pagina
+        { key: 'scroll', behaviors: ['continuous'] },   // ✅ Vista scroll
+        { key: 'gallery' }                              // ✅ Vista galleria
+      ],
+      defaultView: 'single',     // Vista di default
+      
+      // Navigazione thumbnails
+      thumbnailNavigation: {
+        defaultPosition: 'far-bottom',
+        displaySettings: true,
+        height: 130
+      }
+    },
+    
+    // Controlli workspace
+    workspace: {
+      showZoomControls: true,    // ✅ Controlli zoom
+      type: 'mosaic',            // Tipo layout
+      allowNewWindows: false,    // Non permettere finestre multiple
+      isWorkspaceAddVisible: false,
+      exposeModeOn: false
+    },
+    
+    // Pannello controllo workspace (bottoni in alto)
+    workspaceControlPanel: {
+      enabled: true              // ✅ IMPORTANTE: abilita pannello controlli!
+    },
+    
+    // Configurazioni globali
+    thumbnailNavigation: {
+      defaultPosition: 'far-bottom',
+      height: 130
+    },
+    
+    // Bottoni disponibili (toolbar)
+    osdConfig: {
+      gestureSettingsMouse: {
+        clickToZoom: false
+      }
+    }
+  };
+  
+  try {
+    miradorInstance = Mirador.viewer(config);
+    console.log('✅ Mirador caricato con successo');
+  } catch (error) {
+    console.error('❌ Errore Mirador:', error);
+    closeMirador();
+  }
+}
+
+/**
+ * Chiude il viewer Mirador
+ */
+function closeMirador() {
+  const modal = document.getElementById('mirador-modal');
+  if (modal) {
+    modal.classList.remove('active');
+  }
+  
+  if (miradorInstance) {
+    const viewerContainer = document.getElementById('mirador-viewer');
+    if (viewerContainer) {
+      viewerContainer.innerHTML = '';
+    }
+    miradorInstance = null;
+  }
+  
+  console.log('🔒 Mirador chiuso');
+}
+
+/**
+ * Inizializza gli event listener per Mirador
+ */
+function initMiradorListeners() {
+  const closeBtn = document.getElementById('mirador-close');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', closeMirador);
+  }
+  
+  // Chiudi con ESC
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      const modal = document.getElementById('mirador-modal');
+      if (modal && modal.classList.contains('active')) {
+        closeMirador();
+      }
+    }
+  });
+  
+  console.log('🎧 Mirador listeners inizializzati');
+}
+
+// Inizializza listener quando il DOM è pronto
+document.addEventListener('DOMContentLoaded', initMiradorListeners);
