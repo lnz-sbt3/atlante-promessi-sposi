@@ -1480,7 +1480,7 @@ function showItemCardDirect(item) {
   if (item.iiif_manifest) {
     const miradorBtn = document.createElement('button');
     miradorBtn.className = 'mirador-button';
-    miradorBtn.innerHTML = 'Vedi nell'Edizione';
+    miradorBtn.innerHTML = 'Vedi nell\'Edizione';
     miradorBtn.onclick = function(e) {
       e.preventDefault();
       e.stopPropagation();
@@ -1530,7 +1530,7 @@ function showItemCardLinked(item, mapCenter) {
   if (item.iiif_manifest) {
     const miradorBtn = document.createElement('button');
     miradorBtn.className = 'mirador-button';
-    miradorBtn.innerHTML = 'Vedi nell'Edizione';
+    miradorBtn.innerHTML = 'Vedi nell\'Edizione';
     miradorBtn.onclick = function(e) {
       e.preventDefault();
       e.stopPropagation();
